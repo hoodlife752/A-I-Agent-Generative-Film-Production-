@@ -7,6 +7,7 @@ Scene runs for the ai-film-agency pre-production pipeline.
 ```bash
 pip install -r requirements.txt
 python3 tools/run_scene.py projects/dances-with-feddie 001
+python3 tools/run_scene.py projects/dances-with-feddie 002 --test   # skip the CRR gate to try a generator
 ```
 
 A run gates every shot on the Creative Rationale Report rule, compiles Shot Reports, renders a
@@ -27,3 +28,7 @@ reference image in `02_bibles/refs/` and any real-person likeness has documented
 - `projects/dances-with-feddie/03_department_outputs/scene_001/shot_reports.md`: per-shot reports and prompts
 - `projects/dances-with-feddie/03_department_outputs/scene_001/blocking_maps/`: 42 blocking-map PNGs
 - `projects/dances-with-feddie/03_department_outputs/scene_001/visual_asset_batches.md`: reference-image batch requests
+
+## Dances With Feddie: Scene 2 (MiniMax test)
+
+- `projects/dances-with-feddie/03_department_outputs/scene_002/MINIMAX_TEST_RUN.md`: step-by-step MiniMax web run with paste-ready prompts

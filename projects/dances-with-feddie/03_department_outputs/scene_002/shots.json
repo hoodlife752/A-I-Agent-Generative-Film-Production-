@@ -1,0 +1,95 @@
+{
+  "scene": "002",
+  "slug": "EXT. SALINAS CONFUCIUS CHURCH — DAWN",
+  "timeline": "present_day",
+  "source_script": "00_inputs/scene_002.fountain (Dances With Fetty.fountain, Drive, 2026-09-18)",
+  "site_plan": "church_stoop_site_plan.json",
+  "grid": "2.39:1 Dynamic Symmetry grid, normalized coords (0,0)=bottom-left. Coordinates for 2-03/2-04 are the Scene Blocking Bible's own 'Shot 1: Dances Nodding on the Stoop' layout.",
+  "default_departments": ["casting", "wardrobe", "props", "location", "scene_blocking", "set_designer", "cinematography", "lighting", "image_consistency", "visual_asset_generation", "editing"],
+  "shots": [
+    {
+      "id": "2-01", "type": "audio_only", "duration_s": 4,
+      "beat": "FADE IN on sound first: the awkward start of the tune Dances is mumble-humming.",
+      "script": "THE DANCES'S ACKWARD START AUDIO OF THE ACKWARD-SOUNDING TUNE THAT DANCES IS MUMBLE-HUMMING WHILE NODDI[NG]",
+      "dialogue": [{"who": "DANCES (hum)", "line": "(broken, off-key mumble-hum; stops and restarts)"}],
+      "audio": "Dances' mumble-hum over black, close and dry. Faint dawn street tone under it.",
+      "departments": ["editing"],
+      "editing": "The hum is the seed of 'The Feddie Blues' (scene 3 dream: 'Dances's mumble-hums are immediately recognizable'). Record it as the SAME melody, broken and slurred. Picture fades up under the hum at 4s."
+    },
+    {
+      "id": "2-02", "duration_s": 10,
+      "beat": "Forward-zooming long shot: Dances bent forward at the waist on the top step, nodding. As we close in, the foil and the torch she dropped become visible.",
+      "script": "A forward zooming long shot of Dances, bent forward at the waist, on the top step of the Salinas Confucious Church, nodding… As the shot gets closer, the piece of foil and torch she'd dropped, become visible.",
+      "characters": [{"id": "DANCES", "variant": "present_day"}],
+      "location": "CHURCH_STOOP",
+      "props": ["ELONGATED_FOIL", "TORCH_LIGHTER", "WORN_BLANKET", "WEATHERED_BACKPACK"],
+      "framing": "Long shot zooming in to a medium-wide", "lens": "24mm zooming to 50mm",
+      "camera": "Slow, steady forward zoom from across the street, camera at standing eye level, no handheld. The zoom travels the golden spiral inward: it starts on the whole church façade and coils into Dances.",
+      "blocking": {
+        "focal_point": "Dances' bowed head",
+        "hotspot": "lower-left eye LL (0.30, 0.33) at the end of the zoom",
+        "coords": "Start: church façade fills frame, Dances small at (0.42, 0.40). End: Dances' face and lips at (0.30, 0.33); blue tent left foreground (0.15, 0.40); Brandon's tan tent (0.70, 0.40); church signage along the top line (0.50, 0.85)",
+        "spiral": "Golden spiral curving from the upper-right into the lower-left eye (Scene Blocking Bible Shot 1). The zoom follows it inward.",
+        "notes": "She's on the TOP step, bent at the waist, facing the street."
+      },
+      "set_design": "Red-tiled roofline runs as the dominant top horizontal; the columns of the entrance frame her; the worn blanket and backpack sit beside the entrance; the tents bracket the stoop, Dances' blue tent on the left and Brandon's tan tent on the right.",
+      "lighting": "First sun catches the red-tile roof and the signage; the steps and Dances stay in cool blue shade. The light hasn't reached her (same motif as Ruby in scene 1).",
+      "action": "Across a quiet dawn street, a young woman sits alone on the top step of an ornate church, bent all the way forward at the waist, her head drooping and slowly bobbing, drifting in and out, completely still otherwise. The view slowly closes in on her, and as it does, a long flat strip of foil and a small torch lighter come into view on the step beside her boots.",
+      "dialogue": [],
+      "audio": "Dances' mumble-hum continues, faint at distance, growing as we close in.",
+      "expressions": {"start": "DANCES_nodding_eyes_closed", "end": "DANCES_nodding_eyes_closed"},
+      "editing": "Hold the full zoom. No cuts inside it. This is the film's introduction of its heroine.",
+      "flags": ["F2-01", "F2-02", "F2-04"]
+    },
+    {
+      "id": "2-03", "duration_s": 6,
+      "beat": "The zoom stops low and close, tilted upward, framing her from the neck up against the top of the church entrance and the 'Salinas Confucius Church' lettering. Her lips are twisted in pain as she hums; a string of saliva hangs from her chin.",
+      "script": "The shot stop low and close, tilted at an upward angle that frames her from the neck up with the top to the front entrance and the 'Salinas Confucius Church' lettering above it, as a backdrop. DANCES'S lips are twisted in pain, like it's hurting her to mumble-hum, and there's a string of slobber hanging from her chin.",
+      "characters": [{"id": "DANCES", "variant": "present_day"}],
+      "location": "CHURCH_STOOP",
+      "props": ["SLOBBER_STRING"],
+      "framing": "Low-angle close-up, neck up", "lens": "35mm",
+      "camera": "Low on the lower steps, tilted upward at her face; locked off, lingering.",
+      "blocking": {
+        "focal_point": "Dances' lips and the string of saliva",
+        "hotspot": "LL eye (0.30, 0.33), the spiral's coil center",
+        "coords": "Face and lips at (0.30, 0.33); saliva string runs down to (0.30, 0.15); signage along the top dominant line at (0.50, 0.85); entrance top frames the upper-right",
+        "spiral": "Spiral coil center on her lips (Scene Blocking Bible)",
+        "notes": "Low and upward: the camera doesn't look down on her (Cinematography Bible). The church name sits over her like a caption."
+      },
+      "set_design": "Only the top of the entrance, the columns' capitals and the lettering are in frame behind her.",
+      "lighting": "The signage and roof trim are warm in the first sun; her face is in cool shade with a soft blue fill from the open sky. The saliva string catches a thin line of light.",
+      "action": "Low angle looking up at the young woman's face as she hangs forward, eyes half-closed and heavy, her lips twisted as if it hurts her to hum. A thin glistening string of saliva hangs from her chin. Behind and above her, the top of the church entrance and its lettering.",
+      "dialogue": [{"who": "DANCES", "line": "(mumble-humming, pained)"}],
+      "audio": "The hum close and raw.",
+      "expressions": {"start": "DANCES_nodding_eyes_closed", "end": "DANCES_pained_hum"},
+      "editing": "Continuous with the end of 2-02 (treat as one move; the cut should be invisible).",
+      "flags": ["F2-02", "F2-03"]
+    },
+    {
+      "id": "2-04", "duration_s": 6,
+      "beat": "Downward tilt following the saliva string to where it drips onto her torch and falls onto the foil. The hum fades out with the scene.",
+      "script": "The shot starts into a downward tilt, following the slobber-string to where it dripping on her torch and falling off and onto the foil she'd been smoking from. Her mumble-humming fades-out with the scene.",
+      "characters": [{"id": "DANCES", "variant": "present_day"}],
+      "location": "CHURCH_STOOP",
+      "props": ["SLOBBER_STRING", "TORCH_LIGHTER", "ELONGATED_FOIL", "FADED_PHOTO"],
+      "framing": "Close-up tilting down to an extreme close-up on the step", "lens": "35mm",
+      "camera": "Slow downward tilt from her chin, following the saliva string down to the step. Ends locked on the foil.",
+      "blocking": {
+        "focal_point": "The drop landing on the foil",
+        "hotspot": "LL (0.30, 0.20), the Props Bible foil coordinate",
+        "coords": "Tilt starts on her chin at (0.30, 0.33); ends with the foil strip at (0.30, 0.20), the torch lighter at (0.45, 0.24), and the faded photograph half-tucked under the step edge at (0.72, 0.14)",
+        "spiral": "none",
+        "notes": "Elongated foil only, no small crumpled wads near her feet (Props Bible negative list)."
+      },
+      "set_design": "The concrete step edge runs as a low horizontal; the photograph is the humanizing object in the corner of the frame.",
+      "lighting": "The foil catches the early light along its length. It's the only bright thing in the final frame.",
+      "action": "The view tilts slowly down, following the glistening string of saliva from her chin to the step, where a drop lands on a small torch lighter lying on its side and rolls off onto a long, flat strip of foil catching the early light. At the edge of the step, a small curled photograph is half-tucked under the concrete.",
+      "dialogue": [],
+      "audio": "The hum thins and fades to nothing with the picture.",
+      "expressions": {"start": "DANCES_pained_hum", "end": "DANCES_pained_hum"},
+      "editing": "FADE OUT on the foil after the hum is gone; hold 1s of silence on black.",
+      "flags": ["F2-04"]
+    }
+  ]
+}

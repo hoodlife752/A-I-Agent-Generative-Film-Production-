@@ -120,21 +120,28 @@ def draw_site(d, v, site):
     mid = (sx[0] + sx[1]) / 2
     for y in range(int(ex[1]), int(ex[3]), 6):
         d.line([v.p(mid, y), v.p(mid, y + 3)], fill=(235, 200, 60), width=3)
-    fr = site["field"]["rect"]
-    d.rectangle(v.r(*fr), fill=FIELD, outline=INK, width=2)
+    for a in site.get("areas", []):
+        d.rectangle(v.r(*a["rect"]), fill=tuple(a.get("fill", FIELD)), outline=INK, width=2)
+        x0, y0, x1, y1 = a["rect"]
+        for k in range(1, a.get("steps", 0)):
+            sx_ = x0 + (x1 - x0) * k / a["steps"]
+            d.line([v.p(sx_, y0), v.p(sx_, y1)], fill=INK, width=2)
+    fr = site.get("field", {}).get("rect")
+    if fr:
+        d.rectangle(v.r(*fr), fill=FIELD, outline=INK, width=2)
     cols = 5
-    for i in range(site["field"]["tents"]):
+    for i in range(site.get("field", {}).get("tents", 0)):
         tx = fr[0] + 3 + (i % cols) * (fr[2] - fr[0] - 6) / (cols - 1)
         ty = fr[1] + 4 + (i // cols) * (fr[3] - fr[1] - 8) / 3 + (2 if i % 2 else 0)
         px, py = v.p(tx, ty)
         s = max(4, v.s * 1.2)
         d.polygon([(px, py - s), (px - s, py + s * 0.7), (px + s, py + s * 0.7)], fill=(120, 110, 90), outline=INK)
-    ar = site["alley"]["rect"]
-    d.rectangle(v.r(*ar), fill=WALK)
+    if site.get("alley"):
+        d.rectangle(v.r(*site["alley"]["rect"]), fill=WALK)
     for b in site["buildings"]:
         d.rectangle(v.r(*b["rect"]), fill=BLDG_MUTED if b.get("muted") else BLDG, outline=INK, width=3)
-    pc = site["parked_cars"]
-    for curb_x, key in ((sx[0] + 1.2, "west_curb_y"), (sx[1] - 3.2, "east_curb_y")):
+    pc = site.get("parked_cars")
+    for curb_x, key in ((sx[0] + 1.2, "west_curb_y"), (sx[1] - 3.2, "east_curb_y")) if pc else ():
         y = pc[key][0]
         while y < pc[key][1]:
             d.rectangle(v.r(curb_x, y, curb_x + 2, y + 4.5), fill=(90, 96, 108), outline=INK)
@@ -149,7 +156,8 @@ def draw_site(d, v, site):
             d.ellipse([px - rr, py - rr, px + rr, py + rr], fill=(120, 170, 110), outline=INK)
         elif k in ("tent", "shelter"):
             s = v.s * (1.5 if k == "tent" else 2.5)
-            d.rectangle([px - s, py - s, px + s, py + s], fill=(80, 120, 150) if k == "shelter" else (120, 110, 90), outline=INK, width=2)
+            fill = tuple(fx["color"]) if fx.get("color") else (80, 120, 150) if k == "shelter" else (120, 110, 90)
+            d.rectangle([px - s, py - s, px + s, py + s], fill=fill, outline=INK, width=2)
         else:
             d.rectangle([px - 6, py - 10, px + 6, py + 10], fill=(90, 60, 40))
 
@@ -166,10 +174,11 @@ def draw_labels(d, v, site):
         if visible(cx, cy):
             px, py = v.p(cx, cy)
             d.multiline_text((px, py), b["label"], font=f_b, fill=INK, anchor="mm", align="center")
-    fr = site["field"]["rect"]
-    cx, cy = (max(fr[0], v.x0) + min(fr[2], v.x0 + v.span)) / 2, min(fr[3] - 2, v.y0 + v.span - 2)
-    if visible(cx, cy) and cy > fr[1]:
-        d.text(v.p(cx, cy), site["field"]["label"], font=f_b, fill=INK, anchor="mt")
+    for a in ([site["field"]] if site.get("field") else []) + site.get("areas", []):
+        fr = a["rect"]
+        cx, cy = (max(fr[0], v.x0) + min(fr[2], v.x0 + v.span)) / 2, min(fr[3] - 2, v.y0 + v.span - 2)
+        if visible(cx, cy) and cy > fr[1]:
+            d.multiline_text(v.p(cx, cy), a["label"], font=f_b, fill=INK, anchor="ma", align="center")
     sx = site["street"]["x"]
     ly = v.y0 + v.span * 0.12
     img_txt = Image.new("RGBA", (600, 40), (0, 0, 0, 0))
@@ -177,7 +186,7 @@ def draw_labels(d, v, site):
     d._image.paste(img_txt.rotate(90, expand=True), tuple(int(c) for c in (v.p((sx[0] + sx[1]) / 2, ly)[0] - 20, v.p(0, ly)[1] - 300)),
                    img_txt.rotate(90, expand=True))
     for fx in site["fixtures"]:
-        if visible(*fx["at"]) and fx["kind"] in ("door", "pole", "shelter"):
+        if visible(*fx["at"]) and (fx["kind"] in ("door", "pole", "shelter") or fx.get("color")):
             px, py = v.p(*fx["at"])
             d.text((px + 10, py + 8), fx["label"], font=f_s, fill=INK)
 
@@ -209,6 +218,7 @@ def render_shot(shot, spec, site, colors, out_path, scene_label):
     draw_site(d, v, site)
     draw_camera(d, v, spec["cam"], shot.get("lens"), spec.get("cam_path"))
     d = ImageDraw.Draw(m)
+    draw_labels(d, v, site)
 
     notes, n = [], 0
     for who, path, label in spec.get("moves", []):
@@ -241,7 +251,6 @@ def render_shot(shot, spec, site, colors, out_path, scene_label):
         px, py = v.p(x, y)
         d.rectangle([px - 7, py - 7, px + 7, py + 7], fill=(250, 250, 250), outline=INK, width=3)
         d.text((px + 10, py + 6), label, font=font(16, True), fill=INK)
-    draw_labels(d, v, site)
 
     # north arrow + scale
     nx, ny = MAP[2] - 50, MAP[1] + 60
@@ -304,9 +313,10 @@ def wrap(d, text, x, y, f, width):
 
 def render_scene(project, scene):
     root = Path(project)
-    site = json.loads((root / "02_bibles" / "soledad_site_plan.json").read_text())
     dept_dir = root / "03_department_outputs" / f"scene_{scene}"
-    shots = {s["id"]: s for s in json.loads((dept_dir / "shots.json").read_text())["shots"]}
+    shotlist = json.loads((dept_dir / "shots.json").read_text())
+    site = json.loads((root / "02_bibles" / shotlist.get("site_plan", "soledad_site_plan.json")).read_text())
+    shots = {s["id"]: s for s in shotlist["shots"]}
     maps = json.loads((dept_dir / "blocking_maps.json").read_text())["maps"]
     out_dir = dept_dir / "blocking_maps"
     out_dir.mkdir(exist_ok=True)

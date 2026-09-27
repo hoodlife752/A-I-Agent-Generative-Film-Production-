@@ -16,6 +16,10 @@ Rationale Reports, then:
 
 Usage:
     python3 tools/run_scene.py projects/dances-with-feddie 001
+    python3 tools/run_scene.py projects/dances-with-feddie 002 --test
+
+--test skips the CRR gate and the image-lock blockers so a scene can be tried on
+a generator right away. Every output is stamped TEST: not for the cut.
 """
 import json
 import sys
@@ -132,7 +136,7 @@ def omni_refs(shot, bibles, map_path):
             refs.append({"slot_role": f"expression_{k}", "id": exp[k], "file": f"expr/{exp[k]}.png", "status": "missing",
                          "use": f"{'Opening' if k == 'start' else 'Closing'} expression."})
     for pid in shot.get("props", []):
-        if pid in ("G_WAGON", "SEASONS_CAR", "RICK_BICYCLE", "MILK_CRATE"):
+        if bibles["props"][pid].get("ref"):
             refs.append({"slot_role": "prop", "id": pid, "file": f"02_bibles/refs/{pid.lower()}.png", "status": "missing", "use": bibles["props"][pid]["text"]})
     dropped = refs[OMNI_MAX_REFS:]
     refs = refs[:OMNI_MAX_REFS]
@@ -155,13 +159,14 @@ def omni_prompt(shot, bibles, refs):
     return "\n".join(lines) + "\n\n" + body + f"\n\nDuration {shot['duration_s']}s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output."
 
 
-def main(project, scene):
+def main(project, scene, test=False):
     root = Path(project)
     bibles = load(root / "02_bibles" / f"scene_{scene}_bible_extract.json")
     breakdown = load(root / "01_breakdown" / f"scene_{scene}_breakdown.json")
     dept_dir = root / "03_department_outputs" / f"scene_{scene}"
     shotlist = load(dept_dir / "shots.json")
-    crrs = load(dept_dir / "creative_rationale_reports.json")
+    crr_path = dept_dir / "creative_rationale_reports.json"
+    crrs = load(crr_path) if crr_path.exists() else {"reports": []}
     flags_by_id = {f["id"]: f for f in breakdown["open_flags"]}
     reports = {r["department"]: r for r in crrs["reports"]}
 
@@ -170,20 +175,22 @@ def main(project, scene):
     (dept_dir / "prompts" / "omni").mkdir(parents=True, exist_ok=True)
     maps = {sid: p.relative_to(root).as_posix() for sid, p in render_blocking_maps(project, scene).items()}
 
-    md = [f"# Scene {scene} — Shot Reports\n", f"**{shotlist['slug']}** · {shotlist['timeline']} · source: {shotlist['source_script']}\n",
+    md = [f"# Scene {scene} — Shot Reports\n",
+          *(["\n> **TEST RUN**: CRR gate and image-lock blockers skipped. Outputs are for trying the generator, not for the cut.\n\n"] if test else []), f"**{shotlist['slug']}** · {shotlist['timeline']} · source: {shotlist['source_script']}\n",
           "Review order per shot: department reports → Shot Report → prompt pair. Prompts marked **BLOCKED** are drafts and should not be generated until the listed blockers clear.\n"]
     status_rows, gate_failures, expr_use = [], [], defaultdict(list)
 
     for shot in shotlist["shots"]:
         depts = shot.get("departments", shotlist["default_departments"])
-        missing = [d for d in depts if d not in reports]
+        missing = [] if test else [d for d in depts if d not in reports]
         md.append(f"\n---\n\n## Shot {shot['id']} · {shot['duration_s']}s\n\n**Beat:** {shot['beat']}\n\n> {shot['script']}\n")
         if missing:
             gate_failures.append((shot["id"], missing))
             md.append(f"\n**GATE FAILED — no prompt produced.** Missing Creative Rationale Reports: {', '.join(missing)}\n")
             status_rows.append((shot["id"], "NO PROMPT", "missing CRR: " + ", ".join(missing)))
             continue
-        md.append("\n**Upstream reports:** " + ", ".join(f"{reports[d]['report_id']} ({reports[d]['confidence']})" for d in depts) + "\n")
+        md.append("\n**Upstream reports:** " + (", ".join(f"{reports[d]['report_id']} ({reports[d]['confidence']})" for d in depts if d in reports)
+                                                  or "none: TEST run, CRR gate skipped") + "\n")
         if shot.get("type") == "audio_only":
             md.append(f"\n**Audio-only (editorial).** {shot['audio']}\n\n")
             for d in shot["dialogue"]:
@@ -213,7 +220,7 @@ def main(project, scene):
         md.append(f"- **How it works together:** the camera ({shot['lens']}) arrives at the blocking's focal point — {b['focal_point']} — under {shot['lighting'].split(':')[0]}, so the beat \"{shot['beat'].split('.')[0]}\" lands where the eye already is.\n")
 
         blockers = shot_blockers(shot, bibles, flags_by_id)
-        status = "BLOCKED" if blockers else "READY"
+        status = "TEST" if test else "BLOCKED" if blockers else "READY"
         status_rows.append((shot["id"], status, "; ".join(blockers)))
         if shot.get("flags"):
             md.append(f"- **Open flags:** {', '.join(shot['flags'])}\n")
@@ -269,7 +276,7 @@ def main(project, scene):
     (dept_dir / "visual_asset_batches.md").write_text("".join(va))
 
     # QA / Continuity report
-    ready = [r for r in status_rows if r[1] == "READY"]
+    ready = [r for r in status_rows if r[1] in ("READY", "TEST")]
     blocked = [r for r in status_rows if r[1] == "BLOCKED"]
     qa = [f"# Scene {scene} — QA / Continuity report\n\n",
           f"**Shots:** {len(status_rows)} · **Ready to generate:** {len(ready)} · **Blocked (draft prompts written):** {len(blocked)} · "
@@ -296,6 +303,6 @@ def main(project, scene):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    if len(sys.argv) not in (3, 4):
         sys.exit(__doc__)
-    sys.exit(main(sys.argv[1], sys.argv[2]))
+    sys.exit(main(sys.argv[1], sys.argv[2], test="--test" in sys.argv[3:]))

@@ -328,7 +328,8 @@
     "MILK_CRATE": {
       "status": "locked_text",
       "source": "Props Bible — Location Addendum, Soledad Street",
-      "text": "a heavy-duty plastic milk crate, weathered black, flipped upside down as a street seat"
+      "text": "a heavy-duty plastic milk crate, weathered black, flipped upside down as a street seat",
+      "ref": true
     },
     "SHOPPING_CARTS": {
       "status": "locked_text",
@@ -346,7 +347,8 @@
       "text": "a 2023 Mercedes-Benz G-Class wagon on oversized white Forgiato rims, spotless and gleaming",
       "open_flags": [
         "F-13"
-      ]
+      ],
+      "ref": true
     },
     "SEASONS_CAR": {
       "status": "provisional_script_only",
@@ -354,7 +356,8 @@
       "text": "an ordinary, well-kept sedan",
       "open_flags": [
         "F-13"
-      ]
+      ],
+      "ref": true
     },
     "RUBY_CIGARETTE": {
       "status": "provisional_script_only",
@@ -380,7 +383,8 @@
       "text": "a dark green city bicycle with a front wire basket holding a cardboard box",
       "open_flags": [
         "F-20"
-      ]
+      ],
+      "ref": true
     }
   },
   "out_of_scene_references": {

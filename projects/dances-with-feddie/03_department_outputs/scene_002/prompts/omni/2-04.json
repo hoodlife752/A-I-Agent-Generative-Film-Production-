@@ -1,0 +1,55 @@
+{
+  "shot": "2-04",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is DANCES (character).\nImage 3 is CHURCH_STOOP (location).\nImage 4 is DANCES_pained_hum (expression start).\nImage 5 is TORCH_LIGHTER (prop).\nImage 6 is ELONGATED_FOIL (prop).\n\nThe view tilts slowly down, following the glistening string of saliva from her chin to the step, where a drop lands on a small torch lighter lying on its side and rolls off onto a long, flat strip of foil catching the early light. At the edge of the step, a small curled photograph is half-tucked under the concrete. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (The drop landing on the foil) sits at Tilt starts on her chin at (0.30, 0.33); ends with the foil strip at (0.30, 0.20), the torch lighter at (0.45, 0.24), and the faded photograph half-tucked under the step edge at (0.72, 0.14). Close-up tilting down to an extreme close-up on the step, 35mm lens. Slow downward tilt from her chin, following the saliva string down to the step. Ends locked on the foil. Lighting: The foil catches the early light along its length. It's the only bright thing in the final frame. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 6s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_002/blocking_maps/2-04_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "DANCES",
+      "file": "02_bibles/refs/dances_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for DANCES.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "CHURCH_STOOP",
+      "file": "02_bibles/refs/church_stoop_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "DANCES_pained_hum",
+      "file": "expr/DANCES_pained_hum.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    },
+    {
+      "slot_role": "prop",
+      "id": "TORCH_LIGHTER",
+      "file": "02_bibles/refs/torch_lighter.png",
+      "status": "missing",
+      "use": "a small handheld butane torch lighter lying on its side",
+      "slot": 5
+    },
+    {
+      "slot_role": "prop",
+      "id": "ELONGATED_FOIL",
+      "file": "02_bibles/refs/elongated_foil.png",
+      "status": "missing",
+      "use": "a single unusually long strip of foil, roughly 4 inches wide and 16 inches long, laid out flat, catching the early light — long and mostly flat, unusually elongated compared to typical crumpled foil",
+      "slot": 6
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 6
+}

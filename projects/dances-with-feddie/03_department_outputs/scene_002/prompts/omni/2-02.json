@@ -1,0 +1,55 @@
+{
+  "shot": "2-02",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is DANCES (character).\nImage 3 is CHURCH_STOOP (location).\nImage 4 is DANCES_nodding_eyes_closed (expression start).\nImage 5 is ELONGATED_FOIL (prop).\nImage 6 is TORCH_LIGHTER (prop).\n\nAcross a quiet dawn street, a young woman sits alone on the top step of an ornate church, bent all the way forward at the waist, her head drooping and slowly bobbing, drifting in and out, completely still otherwise. The view slowly closes in on her, and as it does, a long flat strip of foil and a small torch lighter come into view on the step beside her boots. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Dances' bowed head) sits at Start: church façade fills frame, Dances small at (0.42, 0.40). End: Dances' face and lips at (0.30, 0.33); blue tent left foreground (0.15, 0.40); Brandon's tan tent (0.70, 0.40); church signage along the top line (0.50, 0.85). Long shot zooming in to a medium-wide, 24mm zooming to 50mm lens. Slow, steady forward zoom from across the street, camera at standing eye level, no handheld. The zoom travels the golden spiral inward: it starts on the whole church façade and coils into Dances. Lighting: First sun catches the red-tile roof and the signage; the steps and Dances stay in cool blue shade. The light hasn't reached her (same motif as Ruby in scene 1). Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 10s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_002/blocking_maps/2-02_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "DANCES",
+      "file": "02_bibles/refs/dances_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for DANCES.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "CHURCH_STOOP",
+      "file": "02_bibles/refs/church_stoop_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "DANCES_nodding_eyes_closed",
+      "file": "expr/DANCES_nodding_eyes_closed.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    },
+    {
+      "slot_role": "prop",
+      "id": "ELONGATED_FOIL",
+      "file": "02_bibles/refs/elongated_foil.png",
+      "status": "missing",
+      "use": "a single unusually long strip of foil, roughly 4 inches wide and 16 inches long, laid out flat, catching the early light — long and mostly flat, unusually elongated compared to typical crumpled foil",
+      "slot": 5
+    },
+    {
+      "slot_role": "prop",
+      "id": "TORCH_LIGHTER",
+      "file": "02_bibles/refs/torch_lighter.png",
+      "status": "missing",
+      "use": "a small handheld butane torch lighter lying on its side",
+      "slot": 6
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 10
+}

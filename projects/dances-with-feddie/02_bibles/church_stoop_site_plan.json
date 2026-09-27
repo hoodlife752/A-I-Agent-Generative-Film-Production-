@@ -1,0 +1,21 @@
+{
+  "_about": "Top-down plan of the Salinas Confucius Church stoop. Units ≈ meters, north up. Assumes the church faces WEST across the street toward the field where Chris stands (scene 7). See F2-05. Tent sides follow the Location Bible as seen from the street: Dances' blue tent on the LEFT (north), Brandon's tan tent on the RIGHT (south).",
+  "extent": [0, 30, 100, 110],
+  "street": {"x": [30, 48], "label": "STREET (name TBD)"},
+  "sidewalks": [{"x": [26, 30]}, {"x": [48, 54]}],
+  "areas": [
+    {"rect": [54, 58, 62, 82], "label": "STOOP\nsteps rise →", "fill": [214, 206, 190], "steps": 4},
+    {"rect": [2, 34, 26, 106], "label": "FIELD\n(Chris's tree)", "fill": [206, 192, 150]}
+  ],
+  "buildings": [
+    {"id": "CHURCH", "label": "SALINAS\nCONFUCIUS CHURCH\nred-tile roof", "rect": [62, 50, 92, 90]}
+  ],
+  "fixtures": [
+    {"id": "DOORS", "label": "double doors", "at": [62, 70], "kind": "door"},
+    {"id": "DANCES_TENT", "label": "Dances' tent (blue)", "at": [57, 80], "kind": "tent", "color": [40, 90, 190]},
+    {"id": "BRANDON_TENT", "label": "Brandon's tent (tan)", "at": [57, 60], "kind": "tent", "color": [200, 180, 140]},
+    {"id": "POLE", "label": "utility pole", "at": [50, 92], "kind": "pole"},
+    {"id": "LAMP", "label": "street lamp", "at": [50, 50], "kind": "pole"},
+    {"id": "TREE", "label": "field tree", "at": [14, 70], "kind": "tree"}
+  ]
+}

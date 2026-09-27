@@ -1,0 +1,47 @@
+{
+  "shot": "2-03",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is DANCES (character).\nImage 3 is CHURCH_STOOP (location).\nImage 4 is DANCES_nodding_eyes_closed (expression start).\nImage 5 is DANCES_pained_hum (expression end).\n\nLow angle looking up at the young woman's face as she hangs forward, eyes half-closed and heavy, her lips twisted as if it hurts her to hum. A thin glistening string of saliva hangs from her chin. Behind and above her, the top of the church entrance and its lettering. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Dances' lips and the string of saliva) sits at Face and lips at (0.30, 0.33); saliva string runs down to (0.30, 0.15); signage along the top dominant line at (0.50, 0.85); entrance top frames the upper-right. Low-angle close-up, neck up, 35mm lens. Low on the lower steps, tilted upward at her face; locked off, lingering. Lighting: The signage and roof trim are warm in the first sun; her face is in cool shade with a soft blue fill from the open sky. The saliva string catches a thin line of light. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Dances says: \"(mumble-humming, pained)\"\n\nDuration 6s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_002/blocking_maps/2-03_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "DANCES",
+      "file": "02_bibles/refs/dances_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for DANCES.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "CHURCH_STOOP",
+      "file": "02_bibles/refs/church_stoop_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "DANCES_nodding_eyes_closed",
+      "file": "expr/DANCES_nodding_eyes_closed.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_end",
+      "id": "DANCES_pained_hum",
+      "file": "expr/DANCES_pained_hum.png",
+      "status": "missing",
+      "use": "Closing expression.",
+      "slot": 5
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 6
+}

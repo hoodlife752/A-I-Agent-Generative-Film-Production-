@@ -1,0 +1,22 @@
+{
+  "scene": "002",
+  "slug": "EXT. SALINAS CONFUCIUS CHURCH — DAWN",
+  "prepared_by": "Script Supervisor Agent",
+  "source": "Dances With Fetty.fountain (Drive Google Doc, modified 2026-09-18)",
+  "timeline": "present_day",
+  "time_of_day": "dawn (continuous with scene 1's first light)",
+  "summary": "Our introduction to Dances: alone on the top step of the Salinas Confucius Church, bent at the waist, nodding and mumble-humming a broken tune, with saliva hanging from her chin and the foil and torch she dropped on the step beneath her.",
+  "emotional_beats": [{"shots": "2-01 → 2-04", "beat": "The heroine we've been hearing about (Ruby's dream) in the state Ruby feared. Pain, not spectacle."}],
+  "characters": ["DANCES"],
+  "locations": ["CHURCH_STOOP"],
+  "props": ["ELONGATED_FOIL", "TORCH_LIGHTER", "SLOBBER_STRING", "FADED_PHOTO", "WORN_BLANKET", "WEATHERED_BACKPACK"],
+  "open_flags": [
+    {"id": "F2-01", "owner": "Visual Asset Generation", "severity": "hard_block", "issue": "No chosen reference image exists for DANCES or the CHURCH_STOOP. The Scene Blocking Bible's 'First Five' roster lists both as '❌ Missing Source 2'.", "applied": "Reference batch prompts drafted (visual_asset_batches.md). A MiniMax TEST pass is possible with just the map and text, but it is not for the cut.", "needs": "Pick a Dances reference and a church plate."},
+    {"id": "F2-02", "owner": "Casting", "severity": "decision", "issue": "The Dances bible says 'Neck tattoo side placement: CONFIRM before first generation batch'. The Drift Log correction and the Scene Blocking roster both say left side only.", "applied": "Left side only, small feather, does not extend past the collarbone, no chest tattoo (the Drift Log's wording).", "needs": "Confirm LEFT and update the bible line."},
+    {"id": "F2-03", "owner": "Location / Props", "severity": "risk", "issue": "Rendered text is unreliable (Dances Drift Log). The 'Salinas Confucius Church' lettering will probably garble in video.", "applied": "The prompt asks for lettering above the door without exact text. The Drift Log's composite workaround is recommended: add the real lettering in post.", "needs": "OK to composite the lettering in post?"},
+    {"id": "F2-04", "owner": "Props", "severity": "decision", "issue": "The script adds a torch lighter, which has no Props Bible entry. It also says 'the piece of foil'; the Props Bible's hero foil for this scene is the elongated 4\"×16\" strip.", "applied": "Elongated strip (Props Bible) + a provisional small handheld butane torch lighter.", "needs": "Approve the torch as a Props Bible entry (color/model?)."},
+    {"id": "F2-05", "owner": "Location", "severity": "question", "issue": "The church's street and compass orientation aren't in any bible. The blocking map assumes the church faces west across a street toward the field where Chris stands in scene 7 (corner of East Rossi / Sherwood).", "applied": "02_bibles/church_stoop_site_plan.json", "needs": "Confirm the street name and which way the church faces, or send a reference photo."},
+    {"id": "F2-06", "owner": "Editing / Sound", "severity": "decision", "issue": "Dances' hum has to be the same melody as 'The Feddie Blues' (scene 3 dream). No melody exists yet.", "applied": "Hum treated as a separately recorded audio track.", "needs": "The melody (a voice memo is enough)."},
+    {"id": "F2-07", "owner": "Prompt Engineer", "severity": "risk", "issue": "Drug-use imagery (nodding, foil, torch) may trip MiniMax's hosted content filters.", "applied": "Filter-safe wording: no substance names and no 'smoking'. Nodding is described as a drooping, bobbing head.", "needs": "If MiniMax refuses, log it in shared/drift_logs and try the fallback wording in the run sheet."}
+  ]
+}

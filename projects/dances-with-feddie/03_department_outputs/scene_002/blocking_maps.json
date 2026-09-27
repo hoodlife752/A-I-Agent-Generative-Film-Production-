@@ -1,0 +1,15 @@
+{
+  "_about": "Scene 2 top-down staging on 02_bibles/church_stoop_site_plan.json.",
+  "maps": {
+    "2-02": {"cam": [36, 70, 90], "cam_path": [[36, 70], [47, 70]], "actors": {"DANCES": [61, 70]},
+             "props": [["foil strip", [60, 68.8]], ["torch", [60, 71.6]], ["blanket + backpack", [61.2, 76]]],
+             "moves": [["CAM", [[36, 70], [47, 70]], "slow forward ZOOM 24→50mm from across the street"]],
+             "notes": ["Dances on the TOP step, bent at the waist, facing the street", "Head droops and slowly bobs; otherwise still", "Foil + torch revealed as the zoom closes in"]},
+    "2-03": {"cam": [56, 70, 90], "actors": {"DANCES": [61, 70]}, "props": [["saliva string", [60.4, 70]]],
+             "notes": ["LOW on the lower steps, tilted UP at her face", "Top of the entrance + church lettering behind her", "Continuous with the end of 2-02"]},
+    "2-04": {"cam": [56, 70, 90], "actors": {"DANCES": [61, 70]},
+             "props": [["foil strip", [60, 68.8]], ["torch", [60, 71.6]], ["photo", [58.2, 73]]],
+             "moves": [["CAM", [[56, 70], [56, 69.2]], "TILT DOWN from her chin along the saliva string to the step"]],
+             "notes": ["Drop lands on the torch, rolls onto the foil", "Photo half-tucked under the step edge", "Hum fades; FADE OUT"]}
+  }
+}
