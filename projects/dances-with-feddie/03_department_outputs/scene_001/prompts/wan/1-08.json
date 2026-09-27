@@ -1,0 +1,9 @@
+{
+  "shot": "1-08",
+  "positive": "[KILLA] Same character as reference image: 40-year-old African American man, tall, slim build, long shoulder-length dreadlocks, missing front left tooth, clean-shaven, black eyes, sagging jawline, longish hands, smooth confident charming demeanor, several gold rings, gold nugget bracelet. Wearing a bomber jacket with a fake fur-lined hood, jeans, boots, and a dark brown beanie. Maintain exact facial structure and build from reference. Scene: The camera lands out of a fast whip pan on a tall slim man lounging on an upside-down milk crate in a recessed doorway, perfectly at ease. He speaks across the street without raising his voice. Medium-wide landing to medium, 50mm. Enters on the tail of a fast whip pan (motion blur), settles hard on Killa within 0.5s, then holds still. Placement: Killa seated at (0.70, 0.55), face at (0.70, 0.66), framed by the dark recessed cubbyhole. L1 Blue hour; the cubbyhole is in shade, a sliver of amber streetlamp catches his gold rings.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no short hair, no heavyset/stocky build, no full smile without the missing front left tooth showing, no facial hair, no eye color other than black, no firm/tight jawline, no reserved/timid demeanor, no flashback wardrobe elements, no missing gold jewelry, never remove the utility pole in front of Dorothy's Place, no swapping architectural styles with the Suey Sing Building",
+  "first_frame": "expr/KILLA_cool_unbothered.png",
+  "last_frame": "expr/KILLA_cool_unbothered.png",
+  "frames": 81,
+  "fps": 16
+}

@@ -1,0 +1,9 @@
+{
+  "shot": "1-36",
+  "positive": "[SEASON] Same character as reference image: 44-year-old woman, half Cherokee and half Black, tall, overweight build, thick hair in a braid, black eyes, wears glasses, dimples visible when smiling, cross necklace, pigeon-toed stance, serious devout demeanor. Wearing a waitress work uniform. Maintain exact facial structure and build from reference. Scene: The car eases to a stop at the curb. Through the passenger-side window, the driver beams across the street, waving. Medium side view through passenger window, 50mm. Static from the Moongate side of the street. Placement: Face at (0.70, 0.62) framed by the window. L3 First light.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no short hair, no slender/thin build, no missing glasses, no missing cross necklace, no flat/dimple-less smile, no flashback wardrobe (yellow shorts/blouse), no eye color other than black, Moongate is the tallest structure on the block",
+  "first_frame": "expr/SEASON_giddy_goofy_smile.png",
+  "last_frame": "expr/SEASON_giddy_goofy_smile.png",
+  "frames": 81,
+  "fps": 16
+}

@@ -1,0 +1,392 @@
+{
+  "_about": "Scene 1 extract of every Bible entry the shot list draws on. Prefix wording for LOCKED entries is copied verbatim from the Drive bibles (only the bracketed character tag is renamed where the Sep 18 script renamed the character). PROVISIONAL entries contain only details stated in the script and must be approved by the producer before image batching.",
+  "standards": {
+    "cinematography_prefix": {
+      "source": "CINEMATOGRAPHY BIBLE (Drive, 2026-08-24)",
+      "text": "Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build."
+    },
+    "blocking_prefix": {
+      "source": "SCENE BLOCKING BIBLE (Drive, 2026-08-24)",
+      "text": "Composition follows dynamic symmetry principles — subject(s) positioned along a diagonal sightline rather than center-frame, with deliberate negative space."
+    },
+    "filter_safe_language": {
+      "source": "CINEMATOGRAPHY BIBLE — Content Filter Awareness",
+      "rules": [
+        "Prefer 'intense and focused' over 'grimacing'",
+        "Prefer 'held pose' over 'frozen'",
+        "Describe drug items as objects (small blue pills, foil) — never name the substance in visual prompt text"
+      ]
+    },
+    "global_negatives": [
+      "no dead-center framing unless flagged as intentional",
+      "no clean or brand-new camping gear; tents show wear and dust",
+      "no high-contrast plastic or neon garbage bins",
+      "no harsh flat midday daylight",
+      "no garbled on-screen text"
+    ]
+  },
+  "characters": {
+    "PAUL": {
+      "status": "locked_text",
+      "source": "CHARACTER BIBLE: [MALE ADDICT #1] — Final Consolidated Version",
+      "renamed_from": "MALE ADDICT #1",
+      "image_ref": null,
+      "consent_required": false,
+      "variants": {
+        "present_day": "[PAUL] Same character as reference image: white man in his late 20s to early 30s, gaunt thin build, dirty blonde wavy shoulder-length hair, disheveled, light patchy stubble, blue eyes, pained distressed expression, wearing a gray hooded sweatshirt. Maintain exact facial structure and build from reference. Scene:"
+      },
+      "negatives": [
+        "no neat/well-groomed hair",
+        "no clean-shaven face",
+        "no composed/calm default expression",
+        "no healthy/full build",
+        "no eye color other than blue",
+        "no formal or bright-colored wardrobe"
+      ],
+      "open_flags": [
+        "F-03"
+      ]
+    },
+    "KILLA": {
+      "status": "locked_text",
+      "source": "CHARACTER BIBLE: [KILLA]",
+      "image_ref": null,
+      "consent_required": false,
+      "variants": {
+        "present_day": "[KILLA] Same character as reference image: 40-year-old African American man, tall, slim build, long shoulder-length dreadlocks, missing front left tooth, clean-shaven, black eyes, sagging jawline, longish hands, smooth confident charming demeanor, several gold rings, gold nugget bracelet. Wearing a bomber jacket with a fake fur-lined hood, jeans, boots, and a dark brown beanie. Maintain exact facial structure and build from reference. Scene:"
+      },
+      "negatives": [
+        "no short hair",
+        "no heavyset/stocky build",
+        "no full smile without the missing front left tooth showing",
+        "no facial hair",
+        "no eye color other than black",
+        "no firm/tight jawline",
+        "no reserved/timid demeanor",
+        "no flashback wardrobe elements",
+        "no missing gold jewelry"
+      ],
+      "open_flags": []
+    },
+    "RUBY": {
+      "status": "locked_text",
+      "source": "CHARACTER BIBLE: [RUBY] + Source 2: Reference Image Description — [RUBY] (Panel 1)",
+      "image_ref": null,
+      "consent_required": false,
+      "variants": {
+        "present_day": "[RUBY] Same character as reference image: 66-year-old Cherokee woman, smooth skin with only faint fine lines at the eyes, high cheekbones, sharp restless dark eyes, thick dark hair with silver strands in a loose braid, well-fitted flannel shirt, denim skirt, worn boots, turquoise ring. No facial tattoos, no gray-all-over hair, no gaunt features, no wrinkling. Maintain exact facial structure and wardrobe from reference. Scene:",
+        "present_day_robe": "[RUBY] Same character as reference image: 66-year-old Cherokee woman, smooth skin with only faint fine lines at the eyes, high cheekbones, sharp restless dark eyes, thick dark hair with silver strands in a loose braid, wearing a pink robe, barefoot, turquoise ring, turquoise pendant necklace. No facial tattoos, no gray-all-over hair, no gaunt features, no wrinkling. Maintain exact facial structure from reference. Scene:"
+      },
+      "scene_variant": "present_day_robe",
+      "variant_note": "Script puts Ruby 'in her robe'. Bible wardrobe (flannel/denim skirt/boots) conflicts; Source 2 Panel 1 (pink robe, barefoot) is used as the scene variant. See F-05.",
+      "negatives": [
+        "no facial tattoos",
+        "no sunken/gaunt cheekbones",
+        "no fully gray or white hair",
+        "no heavy wrinkling, forehead lines, or aged skin texture",
+        "no hunched or frail posture",
+        "no jewelry beyond turquoise ring and pendant",
+        "no default smiling"
+      ],
+      "open_flags": [
+        "F-05",
+        "F-06"
+      ]
+    },
+    "SEASON": {
+      "status": "locked_text",
+      "source": "CHARACTER BIBLE: [SEASON] — Final Update",
+      "image_ref": null,
+      "consent_required": false,
+      "variants": {
+        "present_day": "[SEASON] Same character as reference image: 44-year-old woman, half Cherokee and half Black, tall, overweight build, thick hair in a braid, black eyes, wears glasses, dimples visible when smiling, cross necklace, pigeon-toed stance, serious devout demeanor. Wearing a waitress work uniform. Maintain exact facial structure and build from reference. Scene:"
+      },
+      "negatives": [
+        "no short hair",
+        "no slender/thin build",
+        "no missing glasses",
+        "no missing cross necklace",
+        "no flat/dimple-less smile",
+        "no flashback wardrobe (yellow shorts/blouse)",
+        "no eye color other than black"
+      ],
+      "open_flags": [
+        "F-07"
+      ]
+    },
+    "SARAH": {
+      "status": "locked_text",
+      "source": "CHARACTER BIBLE: [SARAH]",
+      "image_ref": null,
+      "consent_required": false,
+      "variants": {
+        "present_day": "[SARAH] Same character as reference image: 25-year-old pretty woman with strawberry blonde hair styled in a 1940s-style updo, emerald green eyes, strong jawline, dimpled chin, curvaceous figure. Wearing a blouse, cream sweater, and black stylish boots. Maintain exact facial structure and build from reference. Scene:"
+      },
+      "negatives": [
+        "no hair color other than strawberry blonde",
+        "no modern/loose hairstyle",
+        "no eye color other than emerald green",
+        "no weak/narrow jawline",
+        "no missing chin dimple",
+        "no flashback jail sweatsuit"
+      ],
+      "open_flags": [
+        "F-08"
+      ]
+    },
+    "MOODY": {
+      "status": "locked_text",
+      "source": "SANTA CRUZ → MOODY — CHARACTER BIBLE",
+      "renamed_from": "SANTA CRUZ",
+      "image_ref": {
+        "status": "producer_supplied",
+        "received": "2026-09-27 (in-session upload)",
+        "file": "02_bibles/refs/moody_reference_sheet.png",
+        "file_in_repo": false,
+        "sheet_notes": "Front / 3-4 L / 3-4 R / profile / close-up face / glasses-beard detail. Red crew-neck tee, beer bottle, rectangular glasses, center-part dreadlocks, connected beard — matches bible."
+      },
+      "consent_required": true,
+      "consent_status": "unverified — a reference sheet exists but consent_log.json is not visible to this run; the sheet does not prove consent",
+      "variants": {
+        "present_day": "[MOODY] Same character as reference image: Black male, 30s-40s, stocky heavyset build, long uniform dreadlocks with center part, full connected beard, dark rectangular glasses, medium-brown skin, warm jovial expression, holding a beer bottle or can. Maintain exact facial structure and build from reference. Scene:"
+      },
+      "wardrobe_note": "Present day: solid red crew-neck t-shirt, casual relaxed fit.",
+      "negatives": [
+        "no clean-shaven or partial beard",
+        "no short/cropped hair",
+        "no different glasses style",
+        "no somber expression",
+        "no empty hands without beer"
+      ],
+      "open_flags": [
+        "F-04"
+      ]
+    },
+    "POOCHIE": {
+      "status": "provisional_script_only",
+      "source": "Script (Sep 18 fountain) character generation flag — no Character Bible exists",
+      "image_ref": null,
+      "consent_required": false,
+      "variants": {
+        "present_day": "[POOCHIE] 35-year-old mixed-race Black man with a half-straight afro, dark striking good looks, relaxed ladies'-man confidence. Scene:"
+      },
+      "negatives": [],
+      "open_flags": [
+        "F-09"
+      ]
+    },
+    "GINA": {
+      "status": "provisional_script_only",
+      "source": "Script (Sep 18 fountain) character generation flag — no Character Bible exists",
+      "image_ref": null,
+      "consent_required": false,
+      "variants": {
+        "present_day": "[GINA] 35-year-old Hispanic woman, a fighter's posture and a loud, instigating energy. Scene:"
+      },
+      "negatives": [],
+      "open_flags": [
+        "F-09"
+      ]
+    },
+    "BELLE": {
+      "status": "provisional_script_only",
+      "source": "Script (Sep 18 fountain) character generation flag — no Character Bible exists",
+      "renamed_from": "DIAMOND (Aug 17 draft)",
+      "image_ref": null,
+      "consent_required": false,
+      "variants": {
+        "present_day": "[BELLE] 30-year-old Black woman, small of stature and ladylike, wearing a dress and heels, hair, make-up and nails done to perfection. Scene:"
+      },
+      "negatives": [],
+      "open_flags": [
+        "F-09"
+      ]
+    },
+    "IZZY": {
+      "status": "provisional_script_plus_reference",
+      "source": "Script (Sep 18 fountain) character generation flag — no Character Bible exists",
+      "image_ref": {
+        "status": "producer_supplied",
+        "received": "2026-09-27 (in-session upload)",
+        "file": "02_bibles/refs/izzy_reference_sheet.png",
+        "file_in_repo": false,
+        "sheet_notes": "Full body front / 3-4 L / 3-4 R / profile / glasses close-up / stance, plus expressions: embarrassed half-smile, forced laugh, wincing/flinching, rare unguarded moment."
+      },
+      "consent_required": false,
+      "variants": {
+        "present_day": "[IZZY] Same character as reference image: 30-year-old Hispanic woman, short, petite tomboy build, bow-legged stance, dark-rimmed glasses, chin-length dark hair, green plaid flannel shirt over a gray t-shirt, blue jeans, sneakers. Maintain exact facial structure and build from reference. Scene:"
+      },
+      "negatives": [],
+      "open_flags": [
+        "F-09",
+        "F-19"
+      ]
+    },
+    "RICK": {
+      "status": "provisional_script_plus_reference",
+      "source": "Script (Sep 18 fountain) — no Character Bible exists",
+      "renamed_from": "MALE ADDICT #2 (Aug 17 draft)",
+      "image_ref": {
+        "status": "producer_supplied",
+        "received": "2026-09-27 (in-session upload)",
+        "file": "02_bibles/refs/rick_reference_sheet.png",
+        "file_in_repo": false,
+        "sheet_notes": "3-4 L / 3-4 R / close-up face (beard) / back view / hands on handlebars / feet & footwear / bicycle as prop (dark green bike with front wire basket holding a cardboard box)."
+      },
+      "consent_required": false,
+      "variants": {
+        "present_day": "[RICK] Same character as reference image: white man with messy tousled brown hair and a full scruffy beard, lean build, weathered face, wearing a worn blue knit sweater, faded light-wash jeans and black slide sandals. Maintain exact facial structure and build from reference. Scene:"
+      },
+      "negatives": [],
+      "open_flags": [
+        "F-09",
+        "F-20"
+      ]
+    },
+    "TINA": {
+      "status": "provisional_script_only",
+      "source": "Script (Sep 18 fountain) — no Character Bible exists",
+      "renamed_from": "FEMALE ADDICT #1 (Aug 17 draft)",
+      "image_ref": null,
+      "consent_required": false,
+      "variants": {
+        "present_day": "[TINA] 30-year-old white woman, worn street clothes. Scene:"
+      },
+      "negatives": [],
+      "open_flags": [
+        "F-09"
+      ]
+    }
+  },
+  "locations": {
+    "SOLEDAD_SUEY_SING": {
+      "status": "locked_text_with_open_conflicts",
+      "source": "LOCATION BIBLE: [SOLEDAD STREET — SUEY SING BUILDING & DOROTHY'S PLACE] — producer's CORRECTED LAYOUT note",
+      "image_ref": null,
+      "text": "The Suey Sing Building on Soledad Street, Chinatown, Salinas: tan/cream single-story stucco building, weathered signage, boarded and graffiti-covered sections along the lower wall, no fence in front. The seven-story Moongate Apartments rise on its left. On its right, a dirt, weed and rock-filled field holds twenty weathered tents. Against the building's wall: a tent in each corner and a huge tarp-built two-unit structure between them, with shopping carts, bikes and belongings.",
+      "negatives": [
+        "Moongate Apartments on the left of Suey Sing, never the right",
+        "no fence in front of the Suey Sing Building",
+        "do not fill in, build over, or remove the open field",
+        "do not merge the building-side encampment with the field encampment"
+      ],
+      "open_flags": [
+        "F-10"
+      ]
+    },
+    "DOROTHYS_PLACE": {
+      "status": "locked_text_with_open_conflicts",
+      "source": "LOCATION BIBLE: [SOLEDAD STREET …] — LOCATION 2 entry",
+      "image_ref": null,
+      "text": "Dorothy's Place, directly across Soledad Street from the Suey Sing Building: two-story Spanish/mission-style building, yellow stucco walls, dark-red trim and support beams, upper wooden balcony with railing, green-trimmed windows, three recessed cubbyhole entrances at ground level, yellow brick wall topped with black steel spikes running left and right, a large shade tree, a utility pole standing directly in front near the entrance.",
+      "negatives": [
+        "never remove the utility pole in front of Dorothy's Place",
+        "no swapping architectural styles with the Suey Sing Building"
+      ],
+      "open_flags": [
+        "F-11"
+      ]
+    },
+    "MOONGATE_FRONT": {
+      "status": "provisional_script_only",
+      "source": "Location Bible geography (Moongate left of Suey Sing) + script",
+      "image_ref": null,
+      "text": "The sidewalk in front of the entrance of the seven-story Moongate Apartments on Soledad Street, the Suey Sing Building to its right.",
+      "negatives": [
+        "Moongate is the tallest structure on the block"
+      ],
+      "open_flags": [
+        "F-12"
+      ]
+    },
+    "VICTORY_MISSION": {
+      "status": "provisional_script_only",
+      "source": "Location Bible (field lies between Suey Sing and the Victory Mission) + Props addendum (masonry/brick wall)",
+      "image_ref": null,
+      "text": "The Victory Mission at the southern end of the block, a brick building past the tent field, people hanging out in front.",
+      "negatives": [],
+      "open_flags": [
+        "F-12"
+      ]
+    },
+    "UNLABELED_STREET_PHOTO": {
+      "status": "producer_supplied_unassigned",
+      "received": "2026-09-27",
+      "file": "02_bibles/refs/street_photo_unlabeled.png",
+      "description": "Wide, overcast street: pink two-story building and a tree on the left, cars parked nose-in at a lot on the right in front of a corrugated-metal warehouse with a roll-up door, a long green-roofed building at the far end, utility poles and overhead lines, a tan pickup in the right foreground.",
+      "open_flags": [
+        "F-21"
+      ]
+    }
+  },
+  "props": {
+    "FOIL_CRUMPLED": {
+      "status": "locked_text",
+      "source": "Props Bible — Location Addendum, Soledad Street",
+      "text": "dozens of tiny crumpled balls of smoked aluminum foil scattered across the sidewalk and gutter, glinting"
+    },
+    "MILK_CRATE": {
+      "status": "locked_text",
+      "source": "Props Bible — Location Addendum, Soledad Street",
+      "text": "a heavy-duty plastic milk crate, weathered black, flipped upside down as a street seat"
+    },
+    "SHOPPING_CARTS": {
+      "status": "locked_text",
+      "source": "Props Bible — Location Addendum, Soledad Street",
+      "text": "metal shopping carts stacked with bundled blankets, tarps, and plastic bags, treated with visual dignity"
+    },
+    "BLUE_PILLS": {
+      "status": "provisional_script_only",
+      "source": "Script: 'deez blue' / 'dumps a few of the pills into the palm of his hand'",
+      "text": "a few small round light-blue pills from a small plastic baggie"
+    },
+    "G_WAGON": {
+      "status": "provisional_script_only",
+      "source": "Script: '2023 Mercedes Benz Wagon on white Forgiato rims'",
+      "text": "a 2023 Mercedes-Benz G-Class wagon on oversized white Forgiato rims, spotless and gleaming",
+      "open_flags": [
+        "F-13"
+      ]
+    },
+    "SEASONS_CAR": {
+      "status": "provisional_script_only",
+      "source": "Script: Season's car — make/color unspecified",
+      "text": "an ordinary, well-kept sedan",
+      "open_flags": [
+        "F-13"
+      ]
+    },
+    "RUBY_CIGARETTE": {
+      "status": "provisional_script_only",
+      "source": "Script",
+      "text": "a lit cigarette"
+    },
+    "RUBY_COFFEE_MUG": {
+      "status": "provisional_script_only",
+      "source": "Script: 'bop you both upside the head with this coffee mug'",
+      "text": "a ceramic coffee mug",
+      "open_flags": [
+        "F-06"
+      ]
+    },
+    "BEERS": {
+      "status": "provisional_script_only",
+      "source": "Script: 'seated with beers'",
+      "text": "beer cans and bottles in hand"
+    },
+    "RICK_BICYCLE": {
+      "status": "producer_supplied_reference",
+      "source": "RICK reference sheet",
+      "text": "a dark green city bicycle with a front wire basket holding a cardboard box",
+      "open_flags": [
+        "F-20"
+      ]
+    }
+  },
+  "out_of_scene_references": {
+    "TROUBLE": {
+      "note": "Character Bible [TROUBLE] — Updated sheet received 2026-09-27. Not in Scene 1; logged for later scenes. Sheet: Black male 30s, light complexion, muscular, long curly shoulder-length hair, seahorse tattoo on left neck; flashback short set + tennis shoes, present day jeans/sweater/jacket.",
+      "file": "02_bibles/refs/trouble_reference_sheet.png"
+    }
+  }
+}

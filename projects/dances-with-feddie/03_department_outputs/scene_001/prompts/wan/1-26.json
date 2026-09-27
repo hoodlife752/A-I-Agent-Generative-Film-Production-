@@ -1,0 +1,10 @@
+{
+  "shot": "1-26",
+  "positive": "[RUBY] Same character as reference image: 66-year-old Cherokee woman, smooth skin with only faint fine lines at the eyes, high cheekbones, sharp restless dark eyes, thick dark hair with silver strands in a loose braid, wearing a pink robe, barefoot, turquoise ring, turquoise pendant necklace. No facial tattoos, no gray-all-over hair, no gaunt features, no wrinkling. Maintain exact facial structure from reference. [RICK] Same character as reference image: white man with messy tousled brown hair and a full scruffy beard, lean build, weathered face, wearing a worn blue knit sweater, faded light-wash jeans and black slide sandals. Maintain exact facial structure and build from reference. [TINA] 30-year-old white woman, worn street clothes. Scene: A couple walks hand in hand down the sidewalk toward the woman in the robe. As they get close, their easy expressions turn concerned and they slow to a stop in front of her. Medium-wide three-shot, 35mm. Static. Placement: Ruby frame-left at (0.30, 0.55); the couple enters frame-right at (0.90, 0.45) and walks the arc inward, stopping at (0.62, 0.50). L3 First light.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no facial tattoos, no sunken/gaunt cheekbones, no fully gray or white hair, no heavy wrinkling, forehead lines, or aged skin texture, no hunched or frail posture, no jewelry beyond turquoise ring and pendant, no default smiling, Moongate is the tallest structure on the block",
+  "first_frame": "expr/RUBY_nervous_worried.png",
+  "last_frame": "expr/RUBY_nervous_worried.png",
+  "frames": 81,
+  "fps": 16,
+  "chaining": "8s > 5s: generate 2 segments, each segment's last frame seeds the next."
+}

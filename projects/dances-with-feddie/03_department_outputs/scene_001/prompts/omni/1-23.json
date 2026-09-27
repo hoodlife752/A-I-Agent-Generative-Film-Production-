@@ -1,0 +1,23 @@
+{
+  "shot": "1-23",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is SOLEDAD_SUEY_SING (location).\n\nA figure sits on a curb folded forward at the waist, still except for a slow, gentle sway. Behind him, out of focus, two people make a quick hand-to-hand exchange and part. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (A seated figure folded forward, gently swaying) sits at Figure at (0.70, 0.55); a quick hand-to-hand exchange soft in background at (0.30, 0.45). Medium-wide, 50mm lens. Static, long lens compression. Lighting: L1/L3 transition. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 4s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-23_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "location",
+      "id": "SOLEDAD_SUEY_SING",
+      "file": "02_bibles/refs/soledad_suey_sing_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 2
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 4
+}

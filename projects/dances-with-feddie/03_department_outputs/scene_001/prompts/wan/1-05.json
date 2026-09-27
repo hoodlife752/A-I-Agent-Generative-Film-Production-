@@ -1,0 +1,10 @@
+{
+  "shot": "1-05",
+  "positive": "Scene: Establishing view down a Chinatown street at dawn: a seven-story apartment tower on the left, a single-story stucco building, then an open dirt field crowded with twenty weathered tents. Cars line both curbs bumper to bumper. People sit, stand and drift between tents. Extreme wide establishing shot, 24mm. Static, slightly elevated (head height on a crate), a slow 3-second tilt up from the gutter to the rooftops. Placement: Field occupies the right of frame from x=0.55 to 0.95; Moongate tower on the left edge reaching y=0.95. L1 Blue hour; horizon behind the buildings beginning to lift to pale steel-blue.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, Moongate Apartments on the left of Suey Sing, never the right, no fence in front of the Suey Sing Building, do not fill in, build over, or remove the open field, do not merge the building-side encampment with the field encampment",
+  "first_frame": null,
+  "last_frame": null,
+  "frames": 81,
+  "fps": 16,
+  "chaining": "6s > 5s: generate 2 segments, each segment's last frame seeds the next."
+}

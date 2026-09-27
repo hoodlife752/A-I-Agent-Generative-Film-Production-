@@ -1,0 +1,9 @@
+{
+  "shot": "1-07",
+  "positive": "[PAUL] Same character as reference image: white man in his late 20s to early 30s, gaunt thin build, dirty blonde wavy shoulder-length hair, disheveled, light patchy stubble, blue eyes, pained distressed expression, wearing a gray hooded sweatshirt. Maintain exact facial structure and build from reference. Scene: The young man stops at the curb, turns outward toward the whole street and calls out, arms half-raised. The camera then whips fast to the left across the street in a streak of motion blur. Medium shot, 50mm. Static for 3s, then a fast whip pan screen-left across the street (motion blur) for the final second. Placement: Paul's face at (0.30, 0.66), body angled toward screen-left (toward Dorothy's). L1 Blue hour, amber streetlamp as a rim on his hair.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no neat/well-groomed hair, no clean-shaven face, no composed/calm default expression, no healthy/full build, no eye color other than blue, no formal or bright-colored wardrobe, Moongate Apartments on the left of Suey Sing, never the right, no fence in front of the Suey Sing Building, do not fill in, build over, or remove the open field, do not merge the building-side encampment with the field encampment",
+  "first_frame": "expr/PAUL_pleading_outward.png",
+  "last_frame": "expr/PAUL_pleading_outward.png",
+  "frames": 81,
+  "fps": 16
+}

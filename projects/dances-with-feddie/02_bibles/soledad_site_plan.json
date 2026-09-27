@@ -1,0 +1,29 @@
+{
+  "_about": "Top-down site plan of Soledad Street for blocking maps. Units ≈ meters. x runs west→east, y runs south→north (north is up). Derived from the Location Bible's producer CORRECTED LAYOUT: Moongate / Suey Sing / field / Victory Mission all on the east side, north to south, with Dorothy's Place across the street from Suey Sing. The compass orientation is inferred from 'Paul heads south past Suey Sing' and 'southern half of the block … Victory Mission'. See F-22.",
+  "extent": [0, 0, 100, 140],
+  "street": {"x": [40, 60], "label": "SOLEDAD STREET"},
+  "sidewalks": [{"x": [34, 40]}, {"x": [60, 66]}],
+  "buildings": [
+    {"id": "DOROTHYS", "label": "DOROTHY'S PLACE\n2-story mission style", "rect": [8, 68, 34, 102]},
+    {"id": "WEST_NORTH", "label": "(unmapped)", "rect": [8, 104, 34, 140], "muted": true},
+    {"id": "WEST_SOUTH", "label": "(unmapped)", "rect": [8, 0, 34, 66], "muted": true},
+    {"id": "MOONGATE", "label": "MOONGATE APTS\n7 stories", "rect": [66, 104, 94, 140]},
+    {"id": "SUEY_SING", "label": "SUEY SING BLDG\n1 story", "rect": [66, 76, 90, 102]},
+    {"id": "BUDDHIST_CHURCH", "label": "BUDDHIST\nCHURCH\n(California St)", "rect": [94, 76, 100, 102], "muted": true},
+    {"id": "VICTORY_MISSION", "label": "VICTORY MISSION", "rect": [66, 4, 92, 32]}
+  ],
+  "alley": {"rect": [90, 76, 94, 102], "label": "ALLEY"},
+  "field": {"rect": [66, 34, 96, 74], "label": "FIELD — 20 TENTS (present day)", "tents": 20},
+  "fixtures": [
+    {"id": "CUBBY_N", "label": "cubby", "at": [33, 94], "kind": "door"},
+    {"id": "CUBBY_M", "label": "middle cubby", "at": [33, 85], "kind": "door"},
+    {"id": "CUBBY_S", "label": "cubby", "at": [33, 76], "kind": "door"},
+    {"id": "POLE", "label": "utility pole", "at": [37, 88], "kind": "pole"},
+    {"id": "TREE", "label": "shade tree", "at": [36, 72], "kind": "tree"},
+    {"id": "MOONGATE_DOOR", "label": "Moongate entrance", "at": [66, 115], "kind": "door"},
+    {"id": "SS_TENT_N", "label": "corner tent", "at": [68, 99], "kind": "tent"},
+    {"id": "SS_TENT_S", "label": "corner tent", "at": [68, 78], "kind": "tent"},
+    {"id": "TARP_DUPLEX", "label": "tarp duplex (Gina)", "at": [68.5, 88.5], "kind": "shelter"}
+  ],
+  "parked_cars": {"west_curb_y": [36, 66], "east_curb_y": [36, 72], "spacing": 5.5}
+}

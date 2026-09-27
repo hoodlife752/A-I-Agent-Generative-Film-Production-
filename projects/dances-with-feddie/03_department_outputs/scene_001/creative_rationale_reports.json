@@ -1,0 +1,179 @@
+{
+  "scene": "001",
+  "task_packets": [
+    {"id": "TP-001-CAS", "to": "casting", "scope": "Lock scene-1 character text for all 12 speaking/featured characters; flag script/bible conflicts."},
+    {"id": "TP-001-WAR", "to": "wardrobe", "scope": "Confirm present-day variants for every scene-1 character; resolve Ruby robe."},
+    {"id": "TP-001-PRO", "to": "props", "scope": "Props list + placement depths for scene 1; foil motif; the pill sale; vehicles."},
+    {"id": "TP-001-LOC", "to": "location", "scope": "Soledad Street geography: Suey Sing, Dorothy's, Moongate front, Victory Mission."},
+    {"id": "TP-001-BLK", "to": "scene_blocking", "scope": "Focal point + hotspot + spiral decision for shots 1-02 → 1-43."},
+    {"id": "TP-001-SET", "to": "set_designer", "scope": "Environmental placement on the grid for shots 1-02 → 1-43."},
+    {"id": "TP-001-CIN", "to": "cinematography", "scope": "Framing, lens, movement executing the locked placement."},
+    {"id": "TP-001-LGT", "to": "lighting", "scope": "Scene-1 lighting states derived from theme; continuity into Scene 2 (Confucius Church, dawn)."},
+    {"id": "TP-001-IMG", "to": "image_consistency", "scope": "Per-shot start/end expression anchors for Wan first/last-frame."},
+    {"id": "TP-001-VAG", "to": "visual_asset_generation", "scope": "5-candidate reference batches for every asset without a chosen image; expression sheets once locked."},
+    {"id": "TP-001-EDT", "to": "editing", "scope": "Sequence pacing, transitions, coverage review gate."}
+  ],
+  "reports": [
+    {
+      "report_id": "CRR-001-CAS", "task_packet": "TP-001-CAS", "department": "casting", "scenes": ["001"], "shots": "all with characters",
+      "vision_alignment": {
+        "themes": "The block is a community, not a backdrop. Everyone who speaks gets a locked identity so no addicted or unhoused person renders as a generic 'type'. Paul's bible baseline ('pained, distressed') carries withdrawal without depicting use.",
+        "tone": "Unsentimental but humane: Killa keeps his charm (the bible forbids a timid demeanor) so the predation reads as smooth, not cartoonish.",
+        "movement": "Present day only. No flashback variants are called in scene 1.",
+        "departures": "None intended."
+      },
+      "teamwork": [
+        {"with": "wardrobe", "needed": "Ruby's robe conflicts with her locked wardrobe", "resolution": "Wardrobe supplies the Source 2 Panel 1 robe variant", "unresolved": true, "flag": "F-05"},
+        {"with": "visual_asset_generation", "needed": "Moody is a real-person likeness", "resolution": "Hold image work until consent is confirmed", "unresolved": true, "flag": "F-04"},
+        {"with": "script_supervisor", "needed": "Ages and ethnicities that disagree with the bibles (Paul, Season, Sarah, Gina)", "resolution": "Bibles kept verbatim; conflicts raised to the producer", "unresolved": true, "flag": "F-03, F-07, F-08, F-09"}
+      ],
+      "decisions": [
+        "Prefixes for PAUL, KILLA, RUBY, SEASON, SARAH and MOODY are copied verbatim from the bibles, with only the name tag changed where the script renamed a character.",
+        "POOCHIE, GINA, BELLE and TINA get script-only provisional text with no invented features.",
+        "IZZY and RICK take their look from the producer reference sheets received 2026-09-27, because an image the producer supplied outranks script-only text."
+      ],
+      "confidence": "flagged_for_human_review"
+    },
+    {
+      "report_id": "CRR-001-WAR", "task_packet": "TP-001-WAR", "department": "wardrobe", "scenes": ["001"], "shots": "all with characters",
+      "vision_alignment": {
+        "themes": "Ruby in her robe and barefoot on the street at dawn is the costume version of 'I haven't slept since the dream'. The wardrobe carries the story.",
+        "tone": "Nothing is costumed as squalor. Worn, not ruined.",
+        "movement": "Season's waitress uniform (bible) frames her as someone on her way to work: a functional life set against Ruby's sleepless one.",
+        "departures": "The Ruby robe replaces her locked daytime wardrobe for this scene only."
+      },
+      "teamwork": [
+        {"with": "casting", "needed": "The robe variant", "resolution": "Built from Source 2 Panel 1 (pink robe, barefoot); keeps the turquoise ring and pendant", "unresolved": true, "flag": "F-05"},
+        {"with": "props", "needed": "Ruby's hands: cigarette and mug", "resolution": "Mug in one hand and cigarette in the other from 1-24 on", "unresolved": false}
+      ],
+      "decisions": ["Every prompt states present-day wardrobe explicitly (Killa, Sarah and Season bibles require it).", "Ruby variant = present_day_robe for all of scene 1."],
+      "confidence": "provisional_pending_upstream"
+    },
+    {
+      "report_id": "CRR-001-PRO", "task_packet": "TP-001-PRO", "department": "props", "scenes": ["001"], "shots": "1-02 → 1-43",
+      "vision_alignment": {
+        "themes": "Foil is the environmental wallpaper (Cinematography Bible). 1-20 puts a crumpled foil ball inches from a white Forgiato rim so wealth and want share one frame. Shopping carts carry a stuffed animal and a photograph: a whole life compressed into what can be carried.",
+        "tone": "Drug items are objects, never close-up instruction. The pills are 'small round light-blue pills'.",
+        "movement": "Establishing Ruby's mug in 1-24 lets the threat in 1-31 pay off physically.",
+        "departures": "None."
+      },
+      "teamwork": [
+        {"with": "set_designer", "needed": "Foil depth scale", "resolution": "Foil sits on the lower-third line y≈0.10 (Props addendum); only one hero foil ball per shot sits on a hotspot, and only in shots with no person", "unresolved": false},
+        {"with": "location", "needed": "The literal foil-paved street in the script", "resolution": "Realistic foil litter only, pending the producer's answer", "unresolved": true, "flag": "F-02"}
+      ],
+      "decisions": ["Milk crate under Killa per the Props addendum coordinate (0.70, 0.33).", "G-Wagon color left open (F-13).", "Rick's bicycle from his sheet is left out of 1-26 (F-20)."],
+      "confidence": "provisional_pending_upstream"
+    },
+    {
+      "report_id": "CRR-001-LOC", "task_packet": "TP-001-LOC", "department": "location", "scenes": ["001"], "shots": "all",
+      "vision_alignment": {
+        "themes": "The real geography of Soledad Street is the film's ground truth. The Moongate tower dwarfs Ruby; the twenty-tent field has to stay open, visible negative space.",
+        "tone": "Mournful, beautiful, tired (Setting as Character).",
+        "movement": "Twenty tents now vs four in the flashback is how the audience will feel three months pass, so the count is continuity-critical.",
+        "departures": "None. The stylized foil paving is held (F-02)."
+      },
+      "teamwork": [
+        {"with": "scene_blocking", "needed": "Which side the field is on", "resolution": "The field is right of Suey Sing, between Suey Sing and the Victory Mission (producer's CORRECTED LAYOUT)", "unresolved": true, "flag": "F-10"},
+        {"with": "set_designer", "needed": "Dorothy's cubbyholes", "resolution": "Three recessed entrances; Killa in the middle one", "unresolved": true, "flag": "F-11"}
+      ],
+      "decisions": ["The producer's CORRECTED LAYOUT is the canon block map for scene 1.", "Moongate front and Victory Mission are provisional until reference photos arrive (F-12, F-21)."],
+      "confidence": "flagged_for_human_review"
+    },
+    {
+      "report_id": "CRR-001-BLK", "task_packet": "TP-001-BLK", "department": "scene_blocking", "scenes": ["001"], "shots": "1-02 → 1-43",
+      "vision_alignment": {
+        "themes": "Power is placed on the grid. Killa is always upper-right and still; Paul sinks from UL to LL in 1-12 as his hope drains. In the Ruby/Season fight, height flips: Season stands higher in 1-39 while she thinks she's winning, and Ruby gets the low-angle height in 1-42.",
+        "tone": "Nothing is dead-center. The one weighted empty space is frame-right of Ruby in 1-27, where Dances is not.",
+        "movement": "Vehicles enter on inner arcs (1-18, 1-32), the couple approaches Ruby on an outer-to-inner arc (1-26) and leaves on it (1-31), and Season crosses on the full spiral (1-38).",
+        "departures": "None."
+      },
+      "teamwork": [
+        {"with": "cinematography", "needed": "Execute placements", "resolution": "Handed off per shot", "unresolved": false},
+        {"with": "editing", "needed": "Eyeline continuity across the 1-07/1-08 whip pan", "resolution": "Paul screen-left eyeline, Killa screen-right", "unresolved": false}
+      ],
+      "decisions": [
+        "Paul crosses the street to the curb in front of Dorothy's between 1-13 and 1-14 so the sale happens at arm's length. The script doesn't say this but the transaction requires it.",
+        "1-30 is an OTS behind Ruby so Rick's tiny head shake lands on a hotspot and the audience catches it with her."
+      ],
+      "confidence": "locked"
+    },
+    {
+      "report_id": "CRR-001-SET", "task_packet": "TP-001-SET", "department": "set_designer", "scenes": ["001"], "shots": "1-02 → 1-43",
+      "vision_alignment": {
+        "themes": "Tents and shelters are framed as homes. Gina's shelter doorway in 1-04 is shot like a front door, and the armchair and rug in 1-22 read as a porch.",
+        "tone": "Dignity, not disorder.",
+        "movement": "The utility pole in front of Dorothy's (a locked marker) splits Paul's world from Killa's in 1-14.",
+        "departures": "None."
+      },
+      "teamwork": [{"with": "props", "needed": "No hotspot collisions", "resolution": "Hero foil takes a hotspot only in shots with no person (1-06, 1-20)", "unresolved": false}],
+      "decisions": ["Suey Sing façade as a baroque diagonal behind Paul in 1-02.", "Moongate tower frame-right of Ruby in 1-24 to make her small."],
+      "confidence": "locked"
+    },
+    {
+      "report_id": "CRR-001-CIN", "task_packet": "TP-001-CIN", "department": "cinematography", "scenes": ["001"], "shots": "1-02 → 1-43",
+      "vision_alignment": {
+        "themes": "Low, intimate angles are used only where someone is exposed: Paul's collapse (1-12) and Ruby's dream line (1-27). The camera never looks down on the unhoused.",
+        "tone": "It lingers. Only the script-mandated whip pans (1-07/1-08) and the headlight hit break the stillness.",
+        "movement": "A 35mm entry track, then 85mm singles as the scene narrows to two faces, Paul and then Ruby.",
+        "departures": "The whip pans are the script's own energy, not drift."
+      },
+      "teamwork": [
+        {"with": "scene_blocking", "needed": "Placements", "resolution": "Executed as given; no independent placement", "unresolved": false},
+        {"with": "editing", "needed": "Coverage gate", "resolution": "1-14 is the master two-shot for the sale; 1-38 is the master for Ruby/Season", "unresolved": false}
+      ],
+      "decisions": ["Delivery 2.39:1, generated at 16:9 inside a 2.39 safe area (F-14).", "1-40 widescreen ECU of Ruby's eyes, a gunfighter shot as the script asks."],
+      "confidence": "provisional_pending_upstream"
+    },
+    {
+      "report_id": "CRR-001-LGT", "task_packet": "TP-001-LGT", "department": "lighting", "scenes": ["001"], "shots": "1-02 → 1-43",
+      "vision_alignment": {
+        "themes": "Light follows need. L1 Blue hour (1-02→1-16): cold pre-sunrise blue, amber sodium streetlamps as isolated pools; the block is dry and sick, waiting. L2 Intrusion (1-17→1-20): the only hard light in the scene, white headlights, when money arrives 'like a spaceship'. L3 First light (1-21→1-43): the sun reaches the top of the Moongate first, then Season, who drives in fully sunlit. Ruby stays in shade until the final fade, when light reaches her feet.",
+        "tone": "Dawn is preferred (bible). L2 is the one contrast moment the Cinematography Bible allows.",
+        "movement": "Ending in L3 hands Scene 2 (Confucius Church, dawn) a continuous golden-blue.",
+        "departures": "L2 hard headlight light is a deliberate departure from the soft-light standard, flagged as intentional."
+      },
+      "teamwork": [{"with": "location", "needed": "Sun direction", "resolution": "Low sun raking down cross streets. Needs checking against the real street orientation", "unresolved": true, "flag": "F-15"}],
+      "decisions": ["The three lighting states above are proposed as Tone & Lighting Bible v0 (F-15)."],
+      "confidence": "flagged_for_human_review"
+    },
+    {
+      "report_id": "CRR-001-IMG", "task_packet": "TP-001-IMG", "department": "image_consistency", "scenes": ["001"], "shots": "shots with start/end expressions",
+      "vision_alignment": {
+        "themes": "The expressions come from the script's actual beats, e.g. PAUL_hope_desperation → PAUL_deflated_crushed, not generic 'sad'.",
+        "tone": "Filter-safe mood words (bible Content Filter Awareness).",
+        "movement": "Start/end anchors chain shot to shot so each Wan last frame hands off to the next shot's first frame.",
+        "departures": "None."
+      },
+      "teamwork": [{"with": "visual_asset_generation", "needed": "Expression sheets need a locked reference image", "resolution": "Blocked until references are chosen", "unresolved": true, "flag": "F-18"}],
+      "decisions": ["The expression manifest is in visual_asset_batches.md."],
+      "confidence": "provisional_pending_upstream"
+    },
+    {
+      "report_id": "CRR-001-VAG", "task_packet": "TP-001-VAG", "department": "visual_asset_generation", "scenes": ["001"], "shots": "all",
+      "vision_alignment": {
+        "themes": "Five honest readings of the same locked text per asset. It never picks a winner.",
+        "tone": "Neutral gray studio sheets, as in the existing Moody/Izzy/Rick sheets.",
+        "movement": "n/a",
+        "departures": "None."
+      },
+      "teamwork": [
+        {"with": "casting", "needed": "Consent for Moody", "resolution": "No batching for Moody; the producer's own sheet is logged but held", "unresolved": true, "flag": "F-04"},
+        {"with": "producer", "needed": "A pick per asset", "resolution": "Batch prompts drafted", "unresolved": true, "flag": "F-18"}
+      ],
+      "decisions": ["Batch prompts for PAUL, KILLA, RUBY (robe), SEASON, SARAH, POOCHIE, GINA, BELLE, TINA and the 4 locations.", "Moody, Izzy and Rick sheets recorded as producer-supplied references."],
+      "confidence": "provisional_pending_upstream"
+    },
+    {
+      "report_id": "CRR-001-EDT", "task_packet": "TP-001-EDT", "department": "editing", "scenes": ["001"], "shots": "1-01 → 1-43",
+      "vision_alignment": {
+        "themes": "The scene opens on voices in the dark, so the audience hears the block's hunger before seeing anyone. It ends on silence after Ruby's laugh, so the dream is what stays.",
+        "tone": "Holds, not cuts: 1-12 and 1-27 are protected holds.",
+        "movement": "Two halves: Paul's block (need) and Ruby's corner (fear), joined by the G-Wagon and the 1-21→1-23 montage. No flashback thread in scene 1.",
+        "departures": "The whip-pan match cut 1-07→1-08."
+      },
+      "teamwork": [{"with": "cinematography", "needed": "Coverage review", "resolution": "Approved: two masters (1-14, 1-38) + singles + inserts", "unresolved": false}],
+      "decisions": ["Estimated scene length ≈ 3:40 before trims.", "The sidewalk crew's laughter runs under 1-07→1-13 (producer note)."],
+      "confidence": "locked"
+    }
+  ]
+}

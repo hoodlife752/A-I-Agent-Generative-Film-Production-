@@ -1,0 +1,47 @@
+{
+  "shot": "1-37",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is RUBY (character).\nImage 3 is MOONGATE_FRONT (location).\nImage 4 is RUBY_annoyed (expression start).\nImage 5 is RUBY_disgust (expression end).\n\nClose on her face as mild irritation curdles into open disgust. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Ruby's disgust) sits at Face at (0.30, 0.66). Close-up, 85mm lens. Static. Lighting: L3 First light, Ruby in shade. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Ruby says: \"This bitch.\"\n\nDuration 4s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-37_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "RUBY",
+      "file": "02_bibles/refs/ruby_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day_robe wardrobe for RUBY.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "MOONGATE_FRONT",
+      "file": "02_bibles/refs/moongate_front_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "RUBY_annoyed",
+      "file": "expr/RUBY_annoyed.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_end",
+      "id": "RUBY_disgust",
+      "file": "expr/RUBY_disgust.png",
+      "status": "missing",
+      "use": "Closing expression.",
+      "slot": 5
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 4
+}

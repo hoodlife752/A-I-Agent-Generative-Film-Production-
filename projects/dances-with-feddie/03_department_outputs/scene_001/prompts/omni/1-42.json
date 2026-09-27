@@ -1,0 +1,47 @@
+{
+  "shot": "1-42",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is RUBY (character).\nImage 3 is MOONGATE_FRONT (location).\nImage 4 is RUBY_gunfighter_squint (expression start).\nImage 5 is RUBY_cold_satisfaction (expression end).\n\nClose on the older woman as she delivers a cutting reply, flat and deliberate, a cold hint of satisfaction at the corner of her mouth. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Ruby delivering the line) sits at Face at (0.30, 0.66). Close-up, 85mm lens. Static, slightly low. Lighting: L3 First light. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Ruby says: \"What's funny is that if it wasn't for you being all Jesus-fearin' and what-not, I'd be asking you the same thing, 'cept I'd be asking if you'd been out suckin' dick all night.\"\n\nDuration 6s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-42_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "RUBY",
+      "file": "02_bibles/refs/ruby_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day_robe wardrobe for RUBY.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "MOONGATE_FRONT",
+      "file": "02_bibles/refs/moongate_front_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "RUBY_gunfighter_squint",
+      "file": "expr/RUBY_gunfighter_squint.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_end",
+      "id": "RUBY_cold_satisfaction",
+      "file": "expr/RUBY_cold_satisfaction.png",
+      "status": "missing",
+      "use": "Closing expression.",
+      "slot": 5
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 6
+}

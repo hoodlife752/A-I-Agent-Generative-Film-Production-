@@ -1,0 +1,10 @@
+{
+  "shot": "1-24",
+  "positive": "[RUBY] Same character as reference image: 66-year-old Cherokee woman, smooth skin with only faint fine lines at the eyes, high cheekbones, sharp restless dark eyes, thick dark hair with silver strands in a loose braid, wearing a pink robe, barefoot, turquoise ring, turquoise pendant necklace. No facial tattoos, no gray-all-over hair, no gaunt features, no wrinkling. Maintain exact facial structure from reference. Scene: Standing alone in front of a tall apartment building's entrance, an older woman in a pink robe, barefoot, holds a coffee mug in one hand and draws hard on a cigarette with the other, her eyes darting up and down the street. Wide to medium, 35mm → 50mm equivalent. Slow push-in from wide to medium over the full 7s. Placement: Ruby standing at (0.30, 0.50), face arriving at (0.30, 0.66) at end of push. L3 First light: first low warm sun catches the top floors of the tower above her; Ruby still in cool shade — the light hasn't reached her.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no facial tattoos, no sunken/gaunt cheekbones, no fully gray or white hair, no heavy wrinkling, forehead lines, or aged skin texture, no hunched or frail posture, no jewelry beyond turquoise ring and pendant, no default smiling, Moongate is the tallest structure on the block",
+  "first_frame": "expr/RUBY_nervous_worried.png",
+  "last_frame": "expr/RUBY_nervous_worried.png",
+  "frames": 81,
+  "fps": 16,
+  "chaining": "7s > 5s: generate 2 segments, each segment's last frame seeds the next."
+}

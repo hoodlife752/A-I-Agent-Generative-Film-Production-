@@ -1,0 +1,9 @@
+{
+  "shot": "1-09",
+  "positive": "[PAUL] Same character as reference image: white man in his late 20s to early 30s, gaunt thin build, dirty blonde wavy shoulder-length hair, disheveled, light patchy stubble, blue eyes, pained distressed expression, wearing a gray hooded sweatshirt. Maintain exact facial structure and build from reference. Scene: The young man stops mid-stride and spins around, his face opening with sudden hope and need, eyes locked across the street. Medium close-up, 85mm. Static, at Paul's eye level. Placement: Paul spins into frame, face lands at (0.70, 0.66) looking screen-left toward Killa. L1 Blue hour.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no neat/well-groomed hair, no clean-shaven face, no composed/calm default expression, no healthy/full build, no eye color other than blue, no formal or bright-colored wardrobe, Moongate Apartments on the left of Suey Sing, never the right, no fence in front of the Suey Sing Building, do not fill in, build over, or remove the open field, do not merge the building-side encampment with the field encampment",
+  "first_frame": "expr/PAUL_scanning_restless.png",
+  "last_frame": "expr/PAUL_hope_desperation.png",
+  "frames": 81,
+  "fps": 16
+}

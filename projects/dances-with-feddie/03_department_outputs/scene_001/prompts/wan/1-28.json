@@ -1,0 +1,9 @@
+{
+  "shot": "1-28",
+  "positive": "[RICK] Same character as reference image: white man with messy tousled brown hair and a full scruffy beard, lean build, weathered face, wearing a worn blue knit sweater, faded light-wash jeans and black slide sandals. Maintain exact facial structure and build from reference. [TINA] 30-year-old white woman, worn street clothes. Scene: The man and woman glance at each other with a flicker of guilt, then look back at the woman in front of them. Two-shot, 50mm. Static. Placement: Rick at (0.38, 0.62), Tina at (0.62, 0.62). L3 First light.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, Moongate is the tallest structure on the block",
+  "first_frame": "expr/RICK_concerned.png",
+  "last_frame": "expr/RICK_guilty.png",
+  "frames": 81,
+  "fps": 16
+}

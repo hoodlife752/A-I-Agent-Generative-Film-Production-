@@ -1,0 +1,9 @@
+{
+  "shot": "1-15",
+  "positive": "[PAUL] Same character as reference image: white man in his late 20s to early 30s, gaunt thin build, dirty blonde wavy shoulder-length hair, disheveled, light patchy stubble, blue eyes, pained distressed expression, wearing a gray hooded sweatshirt. Maintain exact facial structure and build from reference. Scene: The young man's pained face goes still and thoughtful, weighing it. His hand slides into the pocket of his gray hoodie and draws out a few folded bills. Medium close-up, 85mm. Static, slight downward tilt following his hand to the hoodie pocket. Placement: Face at (0.30, 0.66); tilt ends on hand at (0.30, 0.33). L1 Blue hour.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no neat/well-groomed hair, no clean-shaven face, no composed/calm default expression, no healthy/full build, no eye color other than blue, no formal or bright-colored wardrobe, never remove the utility pole in front of Dorothy's Place, no swapping architectural styles with the Suey Sing Building",
+  "first_frame": "expr/PAUL_sick_pained.png",
+  "last_frame": "expr/PAUL_thoughtful_weighing.png",
+  "frames": 81,
+  "fps": 16
+}

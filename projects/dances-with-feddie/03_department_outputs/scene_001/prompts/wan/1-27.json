@@ -1,0 +1,10 @@
+{
+  "shot": "1-27",
+  "positive": "[RUBY] Same character as reference image: 66-year-old Cherokee woman, smooth skin with only faint fine lines at the eyes, high cheekbones, sharp restless dark eyes, thick dark hair with silver strands in a loose braid, wearing a pink robe, barefoot, turquoise ring, turquoise pendant necklace. No facial tattoos, no gray-all-over hair, no gaunt features, no wrinkling. Maintain exact facial structure from reference. Scene: Close on the older woman. She lets out a long, weary breath, the toughness in her face giving way for a moment to exhaustion and fear as she speaks. Close-up, 85mm. Low, just below her eye line; imperceptibly slow push-in. The camera lingers. Placement: Eyes at (0.30, 0.66); open negative space screen-right (where Dances is not). L3 First light: face in soft shade, a thin warm rim on her hair only.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no facial tattoos, no sunken/gaunt cheekbones, no fully gray or white hair, no heavy wrinkling, forehead lines, or aged skin texture, no hunched or frail posture, no jewelry beyond turquoise ring and pendant, no default smiling, Moongate is the tallest structure on the block",
+  "first_frame": "expr/RUBY_nervous_worried.png",
+  "last_frame": "expr/RUBY_haunted_fear.png",
+  "frames": 81,
+  "fps": 16,
+  "chaining": "6s > 5s: generate 2 segments, each segment's last frame seeds the next."
+}

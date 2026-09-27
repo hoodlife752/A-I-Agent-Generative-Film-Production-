@@ -1,0 +1,39 @@
+{
+  "shot": "1-24",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is RUBY (character).\nImage 3 is MOONGATE_FRONT (location).\nImage 4 is RUBY_nervous_worried (expression start).\n\nStanding alone in front of a tall apartment building's entrance, an older woman in a pink robe, barefoot, holds a coffee mug in one hand and draws hard on a cigarette with the other, her eyes darting up and down the street. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Ruby's face and cigarette smoke) sits at Ruby standing at (0.30, 0.50), face arriving at (0.30, 0.66) at end of push. Wide to medium, 35mm → 50mm equivalent lens. Slow push-in from wide to medium over the full 7s. Lighting: L3 First light: first low warm sun catches the top floors of the tower above her; Ruby still in cool shade — the light hasn't reached her. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 7s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-24_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "RUBY",
+      "file": "02_bibles/refs/ruby_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day_robe wardrobe for RUBY.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "MOONGATE_FRONT",
+      "file": "02_bibles/refs/moongate_front_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "RUBY_nervous_worried",
+      "file": "expr/RUBY_nervous_worried.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 7
+}

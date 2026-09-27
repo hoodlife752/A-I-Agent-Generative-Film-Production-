@@ -1,0 +1,39 @@
+{
+  "shot": "1-16",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is KILLA (character).\nImage 3 is DOROTHYS_PLACE (location).\nImage 4 is KILLA_smile_dealing (expression start).\n\nClose on a man's long hand heavy with gold rings and a gold nugget bracelet as a few small round light-blue pills tip out of a baggie into his palm. Focus racks up to his face: a slow smile that shows his missing front tooth. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Pills in his palm, then his gap-toothed smile) sits at Palm at (0.70, 0.33); smile at (0.70, 0.66) after rack. Insert: extreme close-up on hand, rack to medium close-up on smile, 100mm macro lens. Static insert on the palm, rack focus up to Killa's smile. Lighting: L1 Blue hour; the gold rings and nugget bracelet pick up the only warm highlights in the frame. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Killa says: \"How many you want?\"\n\nDuration 4s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-16_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "KILLA",
+      "file": "02_bibles/refs/killa_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for KILLA.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "DOROTHYS_PLACE",
+      "file": "02_bibles/refs/dorothys_place_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "KILLA_smile_dealing",
+      "file": "expr/KILLA_smile_dealing.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 4
+}

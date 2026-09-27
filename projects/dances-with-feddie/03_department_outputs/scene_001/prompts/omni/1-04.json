@@ -1,0 +1,39 @@
+{
+  "shot": "1-04",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is GINA (character).\nImage 3 is SOLEDAD_SUEY_SING (location).\nImage 4 is GINA_neutral_busy (expression start).\n\nA woman lifts the flap of a large tarp-built shelter, sets a folded blanket inside with care, then steps back out carrying a jacket and pulls the flap closed behind her, like closing a front door. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Gina's hands placing a folded blanket inside the shelter) sits at Shelter entrance at (0.70, 0.45); Gina enters from frame-left along the inner arc and stops at the entrance. Medium shot, observational, 50mm lens. Locked-off, eye level. Nobody looks at camera. Lighting: L1 Blue hour. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 5s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-04_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "GINA",
+      "file": "02_bibles/refs/gina_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for GINA.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "SOLEDAD_SUEY_SING",
+      "file": "02_bibles/refs/soledad_suey_sing_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "GINA_neutral_busy",
+      "file": "expr/GINA_neutral_busy.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 5
+}

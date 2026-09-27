@@ -1,0 +1,39 @@
+{
+  "shot": "1-10",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is KILLA (character).\nImage 3 is DOROTHYS_PLACE (location).\nImage 4 is MILK_CRATE (prop).\n\nView across the street at a two-story Spanish-style building with three recessed doorways. The two outer doorways are crowded with a dozen people leaning, sitting, bodies folded forward and gently swaying. In the middle doorway one man sits alone on a crate. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Killa alone in the middle cubbyhole) sits at Killa at (0.62, 0.45); crowded cubbyholes at (0.25, 0.45) and (0.90, 0.45). Wide POV, 35mm lens. POV, subtle handheld sway matching Paul's unsteady stance, looking across the street. Lighting: L1 Blue hour. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 6s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-10_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "KILLA",
+      "file": "02_bibles/refs/killa_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for KILLA.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "DOROTHYS_PLACE",
+      "file": "02_bibles/refs/dorothys_place_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "prop",
+      "id": "MILK_CRATE",
+      "file": "02_bibles/refs/milk_crate.png",
+      "status": "missing",
+      "use": "a heavy-duty plastic milk crate, weathered black, flipped upside down as a street seat",
+      "slot": 4
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 6
+}

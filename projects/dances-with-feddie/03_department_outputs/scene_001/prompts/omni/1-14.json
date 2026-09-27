@@ -1,0 +1,55 @@
+{
+  "shot": "1-14",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is KILLA (character).\nImage 3 is PAUL (character).\nImage 4 is DOROTHYS_PLACE (location).\nImage 5 is KILLA_smirk_unsympathetic (expression start).\nImage 6 is MILK_CRATE (prop).\n\nA tall slim man seated on a crate in a recessed doorway smirks down at a hunched young man standing below him at the curb. He reaches down casually to his waistband, fishing out a small plastic baggie, and talks with unhurried amusement. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Killa's smirk) sits at Paul lower-frame-left, hunched, head at (0.30, 0.40); Killa upper-frame-right, seated, face at (0.70, 0.66). Two-shot, power diagonal, 35mm lens. Static, camera at street level low beside Paul. Lighting: L1 Blue hour. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Killa says: \"You betta get you some of deez blue, for you fuck around and shit on yourself or somethin'.\"\n\nDuration 7s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-14_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "KILLA",
+      "file": "02_bibles/refs/killa_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for KILLA.",
+      "slot": 2
+    },
+    {
+      "slot_role": "character",
+      "id": "PAUL",
+      "file": "02_bibles/refs/paul_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for PAUL.",
+      "slot": 3
+    },
+    {
+      "slot_role": "location",
+      "id": "DOROTHYS_PLACE",
+      "file": "02_bibles/refs/dorothys_place_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "KILLA_smirk_unsympathetic",
+      "file": "expr/KILLA_smirk_unsympathetic.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 5
+    },
+    {
+      "slot_role": "prop",
+      "id": "MILK_CRATE",
+      "file": "02_bibles/refs/milk_crate.png",
+      "status": "missing",
+      "use": "a heavy-duty plastic milk crate, weathered black, flipped upside down as a street seat",
+      "slot": 6
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 7
+}

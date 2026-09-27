@@ -1,0 +1,10 @@
+{
+  "shot": "1-02",
+  "positive": "[PAUL] Same character as reference image: white man in his late 20s to early 30s, gaunt thin build, dirty blonde wavy shoulder-length hair, disheveled, light patchy stubble, blue eyes, pained distressed expression, wearing a gray hooded sweatshirt. Maintain exact facial structure and build from reference. Scene: A young man walks fast and hunched-forward down the street along the curb, heading screen-right past a single-story stucco building lined with weathered tents and a large tarp-built shelter. His head swivels, scanning the sidewalk and across the street, listening. Without breaking stride he calls back over his shoulder. Wide-to-medium lateral tracking shot, 35mm. Smooth lateral gimbal track at Paul's fast walking pace, camera on the street side moving screen-right with him, slightly below his eye level. Placement: Paul's head held at (0.38, 0.66) for the full move; lead room open to screen-right. L1 Blue hour: cobalt pre-sunrise ambient, sodium streetlamps still burning amber as isolated pools; Paul passes through one amber pool mid-track.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no neat/well-groomed hair, no clean-shaven face, no composed/calm default expression, no healthy/full build, no eye color other than blue, no formal or bright-colored wardrobe, Moongate Apartments on the left of Suey Sing, never the right, no fence in front of the Suey Sing Building, do not fill in, build over, or remove the open field, do not merge the building-side encampment with the field encampment",
+  "first_frame": "expr/PAUL_scanning_restless.png",
+  "last_frame": "expr/PAUL_scanning_restless.png",
+  "frames": 81,
+  "fps": 16,
+  "chaining": "8s > 5s: generate 2 segments, each segment's last frame seeds the next."
+}

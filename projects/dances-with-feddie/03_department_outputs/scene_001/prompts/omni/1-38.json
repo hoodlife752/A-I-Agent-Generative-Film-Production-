@@ -1,0 +1,55 @@
+{
+  "shot": "1-38",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is RUBY (character).\nImage 3 is SEASON (character).\nImage 4 is MOONGATE_FRONT (location).\nImage 5 is SEASON_giddy_goofy_smile (expression start).\nImage 6 is SEASONS_CAR (prop).\n\nA tall, heavyset woman in glasses and a waitress uniform climbs out of her car and walks around its front toward the woman in the robe, beaming, with a slightly pigeon-toed gait. The woman in the robe waits, arms folded around her mug, not bothering to hide her disgust. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Season crossing toward Ruby) sits at Ruby frame-left at (0.25, 0.55); Season crosses from the car at (0.80, 0.40) along the full spiral, arriving at (0.62, 0.55). Wide two-shot, 35mm lens. Static, camera behind and beside Ruby at hip height. Lighting: L3 First light: Season walks out of full sun into the edge of Ruby's shade. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Season says: \"Morning Mom. What in Jesus' name are you doing out here in your robe so early for?\"\n\nDuration 8s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-38_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "RUBY",
+      "file": "02_bibles/refs/ruby_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day_robe wardrobe for RUBY.",
+      "slot": 2
+    },
+    {
+      "slot_role": "character",
+      "id": "SEASON",
+      "file": "02_bibles/refs/season_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for SEASON.",
+      "slot": 3
+    },
+    {
+      "slot_role": "location",
+      "id": "MOONGATE_FRONT",
+      "file": "02_bibles/refs/moongate_front_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "SEASON_giddy_goofy_smile",
+      "file": "expr/SEASON_giddy_goofy_smile.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 5
+    },
+    {
+      "slot_role": "prop",
+      "id": "SEASONS_CAR",
+      "file": "02_bibles/refs/seasons_car.png",
+      "status": "missing",
+      "use": "an ordinary, well-kept sedan",
+      "slot": 6
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 8
+}

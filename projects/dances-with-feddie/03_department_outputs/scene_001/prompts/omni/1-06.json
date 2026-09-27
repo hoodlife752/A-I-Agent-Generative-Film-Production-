@@ -1,0 +1,23 @@
+{
+  "shot": "1-06",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is SOLEDAD_SUEY_SING (location).\n\nLow view along a gutter littered with small crumpled balls of foil glinting in the light. Behind, out of focus, people linger on the sidewalk among carts, crates and a broken bicycle; a figure sits bent forward, gently swaying. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (A single crumpled foil ball in the foreground catching light) sits at Foreground foil at (0.30, 0.15); background figures soft along y=0.40–0.60. Low wide shot from curb height, 28mm lens. Camera at gutter level, very slow push forward along the curb. Lighting: L1 Blue hour; foil picks up the amber of the streetlamps. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 5s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-06_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "location",
+      "id": "SOLEDAD_SUEY_SING",
+      "file": "02_bibles/refs/soledad_suey_sing_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 2
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 5
+}

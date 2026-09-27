@@ -1,0 +1,9 @@
+{
+  "shot": "1-41",
+  "positive": "[SEASON] Same character as reference image: 44-year-old woman, half Cherokee and half Black, tall, overweight build, thick hair in a braid, black eyes, wears glasses, dimples visible when smiling, cross necklace, pigeon-toed stance, serious devout demeanor. Wearing a waitress work uniform. Maintain exact facial structure and build from reference. Scene: Her chuckle dies and her smile falters as she catches the look on her mother's face. Medium close-up, 85mm. Static. Placement: Face at (0.70, 0.66). L3 First light.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no short hair, no slender/thin build, no missing glasses, no missing cross necklace, no flat/dimple-less smile, no flashback wardrobe (yellow shorts/blouse), no eye color other than black, Moongate is the tallest structure on the block",
+  "first_frame": "expr/SEASON_playful_teasing.png",
+  "last_frame": "expr/SEASON_caught_off_guard.png",
+  "frames": 81,
+  "fps": 16
+}

@@ -1,0 +1,47 @@
+{
+  "shot": "1-41",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is SEASON (character).\nImage 3 is MOONGATE_FRONT (location).\nImage 4 is SEASON_playful_teasing (expression start).\nImage 5 is SEASON_caught_off_guard (expression end).\n\nHer chuckle dies and her smile falters as she catches the look on her mother's face. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Season's smile dropping) sits at Face at (0.70, 0.66). Medium close-up, 85mm lens. Static. Lighting: L3 First light. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Season says: \"Mom, I—\"\n\nDuration 3s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-41_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "SEASON",
+      "file": "02_bibles/refs/season_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for SEASON.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "MOONGATE_FRONT",
+      "file": "02_bibles/refs/moongate_front_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "SEASON_playful_teasing",
+      "file": "expr/SEASON_playful_teasing.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_end",
+      "id": "SEASON_caught_off_guard",
+      "file": "expr/SEASON_caught_off_guard.png",
+      "status": "missing",
+      "use": "Closing expression.",
+      "slot": 5
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 3
+}

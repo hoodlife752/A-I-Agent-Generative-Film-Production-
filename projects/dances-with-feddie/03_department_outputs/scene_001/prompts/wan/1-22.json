@@ -1,0 +1,9 @@
+{
+  "shot": "1-22",
+  "positive": "Scene: A weathered tent in a dirt field, a pair of worn shoes set neatly side by side outside its flap, an old armchair and a rug arranged in front of it like a front porch. Medium-wide, 35mm. Static. Placement: Shoes at (0.30, 0.25). L1/L3 transition.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, Moongate Apartments on the left of Suey Sing, never the right, no fence in front of the Suey Sing Building, do not fill in, build over, or remove the open field, do not merge the building-side encampment with the field encampment",
+  "first_frame": null,
+  "last_frame": null,
+  "frames": 81,
+  "fps": 16
+}

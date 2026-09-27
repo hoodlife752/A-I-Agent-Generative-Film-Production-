@@ -1,0 +1,10 @@
+{
+  "shot": "1-10",
+  "positive": "[KILLA] Same character as reference image: 40-year-old African American man, tall, slim build, long shoulder-length dreadlocks, missing front left tooth, clean-shaven, black eyes, sagging jawline, longish hands, smooth confident charming demeanor, several gold rings, gold nugget bracelet. Wearing a bomber jacket with a fake fur-lined hood, jeans, boots, and a dark brown beanie. Maintain exact facial structure and build from reference. Scene: View across the street at a two-story Spanish-style building with three recessed doorways. The two outer doorways are crowded with a dozen people leaning, sitting, bodies folded forward and gently swaying. In the middle doorway one man sits alone on a crate. Wide POV, 35mm. POV, subtle handheld sway matching Paul's unsteady stance, looking across the street. Placement: Killa at (0.62, 0.45); crowded cubbyholes at (0.25, 0.45) and (0.90, 0.45). L1 Blue hour.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no short hair, no heavyset/stocky build, no full smile without the missing front left tooth showing, no facial hair, no eye color other than black, no firm/tight jawline, no reserved/timid demeanor, no flashback wardrobe elements, no missing gold jewelry, never remove the utility pole in front of Dorothy's Place, no swapping architectural styles with the Suey Sing Building",
+  "first_frame": null,
+  "last_frame": null,
+  "frames": 81,
+  "fps": 16,
+  "chaining": "6s > 5s: generate 2 segments, each segment's last frame seeds the next."
+}

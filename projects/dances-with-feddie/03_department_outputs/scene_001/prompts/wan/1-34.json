@@ -1,0 +1,9 @@
+{
+  "shot": "1-34",
+  "positive": "[SEASON] Same character as reference image: 44-year-old woman, half Cherokee and half Black, tall, overweight build, thick hair in a braid, black eyes, wears glasses, dimples visible when smiling, cross necklace, pigeon-toed stance, serious devout demeanor. Wearing a waitress work uniform. Maintain exact facial structure and build from reference. Scene: Through the windshield of a slowly moving car, a woman in glasses drives with a big, goofy, delighted smile, dimples showing, warm morning sun full on her face. Medium through windshield, 50mm. Vehicle-mounted front, facing driver; car moving slowly. Placement: Face at (0.30, 0.66) (left-hand-drive driver seat). L3 First light: Season is fully sunlit, warm and bright — the warmest face in the scene.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no short hair, no slender/thin build, no missing glasses, no missing cross necklace, no flat/dimple-less smile, no flashback wardrobe (yellow shorts/blouse), no eye color other than black, Moongate is the tallest structure on the block",
+  "first_frame": "expr/SEASON_giddy_goofy_smile.png",
+  "last_frame": "expr/SEASON_giddy_goofy_smile.png",
+  "frames": 81,
+  "fps": 16
+}

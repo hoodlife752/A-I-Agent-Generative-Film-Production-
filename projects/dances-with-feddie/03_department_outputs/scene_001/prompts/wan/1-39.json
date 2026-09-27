@@ -1,0 +1,10 @@
+{
+  "shot": "1-39",
+  "positive": "[SEASON] Same character as reference image: 44-year-old woman, half Cherokee and half Black, tall, overweight build, thick hair in a braid, black eyes, wears glasses, dimples visible when smiling, cross necklace, pigeon-toed stance, serious devout demeanor. Wearing a waitress work uniform. Maintain exact facial structure and build from reference. [RUBY] Same character as reference image: 66-year-old Cherokee woman, smooth skin with only faint fine lines at the eyes, high cheekbones, sharp restless dark eyes, thick dark hair with silver strands in a loose braid, wearing a pink robe, barefoot, turquoise ring, turquoise pendant necklace. No facial tattoos, no gray-all-over hair, no gaunt features, no wrinkling. Maintain exact facial structure from reference. Scene: The woman in glasses cuts in with a playful, teasing smile, dimples showing, and starts chuckling at her own joke. Over-the-shoulder: Ruby's shoulder, Season MCU, 85mm. Static OTS. Placement: Ruby's shoulder soft frame-left; Season face at (0.70, 0.66). L3 First light, Season half-lit warm.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no short hair, no slender/thin build, no missing glasses, no missing cross necklace, no flat/dimple-less smile, no flashback wardrobe (yellow shorts/blouse), no eye color other than black, no facial tattoos, no sunken/gaunt cheekbones, no fully gray or white hair, no heavy wrinkling, forehead lines, or aged skin texture, no hunched or frail posture, no jewelry beyond turquoise ring and pendant, no default smiling, Moongate is the tallest structure on the block",
+  "first_frame": "expr/SEASON_playful_teasing.png",
+  "last_frame": "expr/SEASON_playful_teasing.png",
+  "frames": 81,
+  "fps": 16,
+  "chaining": "6s > 5s: generate 2 segments, each segment's last frame seeds the next."
+}

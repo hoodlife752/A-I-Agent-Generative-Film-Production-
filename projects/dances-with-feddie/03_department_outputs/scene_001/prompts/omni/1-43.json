@@ -1,0 +1,55 @@
+{
+  "shot": "1-43",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is SEASON (character).\nImage 3 is RUBY (character).\nImage 4 is MOONGATE_FRONT (location).\nImage 5 is SEASON_huffy_offended (expression start).\nImage 6 is RUBY_mocking_laugh (expression end).\n\nThe woman in glasses gasps, stomps her foot, huffs, and spins away, marching into the apartment building's entrance. Behind her the woman in the robe mimics her chuckle, loud and mocking, then goes quiet, alone on the sidewalk, as the image fades out. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Ruby, alone again, laughing) sits at Season stomps from (0.62, 0.55) out through the Moongate entrance at (0.85, 0.50); Ruby holds at (0.30, 0.55). Wide, 35mm lens. Static, then a slow pull-back as Season exits. Lighting: L3 First light: the sun finally reaches the sidewalk at Ruby's feet as the scene fades. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Season says: \"Hmmppph!\" Ruby says: \"(mimicking Season's chuckle)\"\n\nDuration 7s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-43_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "SEASON",
+      "file": "02_bibles/refs/season_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for SEASON.",
+      "slot": 2
+    },
+    {
+      "slot_role": "character",
+      "id": "RUBY",
+      "file": "02_bibles/refs/ruby_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day_robe wardrobe for RUBY.",
+      "slot": 3
+    },
+    {
+      "slot_role": "location",
+      "id": "MOONGATE_FRONT",
+      "file": "02_bibles/refs/moongate_front_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "SEASON_huffy_offended",
+      "file": "expr/SEASON_huffy_offended.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 5
+    },
+    {
+      "slot_role": "expression_end",
+      "id": "RUBY_mocking_laugh",
+      "file": "expr/RUBY_mocking_laugh.png",
+      "status": "missing",
+      "use": "Closing expression.",
+      "slot": 6
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 7
+}

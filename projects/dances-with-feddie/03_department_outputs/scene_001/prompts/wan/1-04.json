@@ -1,0 +1,9 @@
+{
+  "shot": "1-04",
+  "positive": "[GINA] 35-year-old Hispanic woman, a fighter's posture and a loud, instigating energy. Scene: A woman lifts the flap of a large tarp-built shelter, sets a folded blanket inside with care, then steps back out carrying a jacket and pulls the flap closed behind her, like closing a front door. Medium shot, observational, 50mm. Locked-off, eye level. Nobody looks at camera. Placement: Shelter entrance at (0.70, 0.45); Gina enters from frame-left along the inner arc and stops at the entrance. L1 Blue hour.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, Moongate Apartments on the left of Suey Sing, never the right, no fence in front of the Suey Sing Building, do not fill in, build over, or remove the open field, do not merge the building-side encampment with the field encampment",
+  "first_frame": "expr/GINA_neutral_busy.png",
+  "last_frame": "expr/GINA_neutral_busy.png",
+  "frames": 81,
+  "fps": 16
+}

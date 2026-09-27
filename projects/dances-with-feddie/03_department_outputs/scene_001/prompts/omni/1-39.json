@@ -1,0 +1,47 @@
+{
+  "shot": "1-39",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is SEASON (character).\nImage 3 is RUBY (character).\nImage 4 is MOONGATE_FRONT (location).\nImage 5 is SEASON_playful_teasing (expression start).\n\nThe woman in glasses cuts in with a playful, teasing smile, dimples showing, and starts chuckling at her own joke. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Season's teasing grin) sits at Ruby's shoulder soft frame-left; Season face at (0.70, 0.66). Over-the-shoulder: Ruby's shoulder, Season MCU, 85mm lens. Static OTS. Lighting: L3 First light, Season half-lit warm. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Season says: \"You haven't started back smoking crack now, have you, Mom?\"\n\nDuration 6s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-39_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "SEASON",
+      "file": "02_bibles/refs/season_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for SEASON.",
+      "slot": 2
+    },
+    {
+      "slot_role": "character",
+      "id": "RUBY",
+      "file": "02_bibles/refs/ruby_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day_robe wardrobe for RUBY.",
+      "slot": 3
+    },
+    {
+      "slot_role": "location",
+      "id": "MOONGATE_FRONT",
+      "file": "02_bibles/refs/moongate_front_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "SEASON_playful_teasing",
+      "file": "expr/SEASON_playful_teasing.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 5
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 6
+}

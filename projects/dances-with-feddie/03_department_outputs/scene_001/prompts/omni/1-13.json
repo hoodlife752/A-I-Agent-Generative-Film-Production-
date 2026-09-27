@@ -1,0 +1,47 @@
+{
+  "shot": "1-13",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is PAUL (character).\nImage 3 is SOLEDAD_SUEY_SING (location).\nImage 4 is PAUL_deflated_crushed (expression start).\nImage 5 is PAUL_sick_pained (expression end).\n\nClose on the young man's face, a light sheen of sweat on his forehead, arms wrapped around himself against a chill, eyes watery and pained as he speaks quietly, half to himself. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Paul's wet, wincing eyes) sits at Eyes at (0.30, 0.66); arms wrapped around himself in lower frame. Close-up, 85mm lens. Static, eye level, very slow push-in. Lighting: L1 Blue hour, faint sheen of sweat catching the cool light. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Paul says: \"Fuck man, I'm sick. I shoulda just bought that dime off my neighbor.\"\n\nDuration 6s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-13_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "PAUL",
+      "file": "02_bibles/refs/paul_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for PAUL.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "SOLEDAD_SUEY_SING",
+      "file": "02_bibles/refs/soledad_suey_sing_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "PAUL_deflated_crushed",
+      "file": "expr/PAUL_deflated_crushed.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_end",
+      "id": "PAUL_sick_pained",
+      "file": "expr/PAUL_sick_pained.png",
+      "status": "missing",
+      "use": "Closing expression.",
+      "slot": 5
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 6
+}

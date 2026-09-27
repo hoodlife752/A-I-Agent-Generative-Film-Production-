@@ -1,0 +1,79 @@
+{
+  "shot": "1-03",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is SARAH (character).\nImage 3 is POOCHIE (character).\nImage 4 is MOODY (character).\nImage 5 is GINA (character).\nImage 6 is BELLE (character).\nImage 7 is IZZY (character).\nImage 8 is SOLEDAD_SUEY_SING (location).\nImage 9 is SARAH_tipsy_storytelling (expression start).\n\nA group sits on crates and folding chairs on the sidewalk against the stucco wall, beers in hand, laughing easily as a tipsy woman standing among them tells an animated story with sweeping hand gestures. They lean toward her, grinning; one tips his head back mid-laugh. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Sarah mid-story, hands animated) sits at Sarah standing at (0.30, 0.62); the seated group arcs along the lower-right toward (0.80, 0.35) so their eyelines run up the sinister diagonal to her. Medium-wide group shot, 35mm lens. Static, camera at seated eye level, very slow push-in (5% over the shot). Lighting: L1 Blue hour; warm practical glow from inside the tarp structure as the only warm accent. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 6s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-03_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "SARAH",
+      "file": "02_bibles/refs/sarah_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for SARAH.",
+      "slot": 2
+    },
+    {
+      "slot_role": "character",
+      "id": "POOCHIE",
+      "file": "02_bibles/refs/poochie_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for POOCHIE.",
+      "slot": 3
+    },
+    {
+      "slot_role": "character",
+      "id": "MOODY",
+      "file": "02_bibles/refs/moody_reference_sheet.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for MOODY.",
+      "slot": 4
+    },
+    {
+      "slot_role": "character",
+      "id": "GINA",
+      "file": "02_bibles/refs/gina_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for GINA.",
+      "slot": 5
+    },
+    {
+      "slot_role": "character",
+      "id": "BELLE",
+      "file": "02_bibles/refs/belle_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for BELLE.",
+      "slot": 6
+    },
+    {
+      "slot_role": "character",
+      "id": "IZZY",
+      "file": "02_bibles/refs/izzy_reference_sheet.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for IZZY.",
+      "slot": 7
+    },
+    {
+      "slot_role": "location",
+      "id": "SOLEDAD_SUEY_SING",
+      "file": "02_bibles/refs/soledad_suey_sing_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 8
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "SARAH_tipsy_storytelling",
+      "file": "expr/SARAH_tipsy_storytelling.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 9
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 6
+}

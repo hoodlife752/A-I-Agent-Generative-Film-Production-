@@ -1,0 +1,55 @@
+{
+  "shot": "1-28",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is RICK (character).\nImage 3 is TINA (character).\nImage 4 is MOONGATE_FRONT (location).\nImage 5 is RICK_concerned (expression start).\nImage 6 is RICK_guilty (expression end).\n\nThe man and woman glance at each other with a flicker of guilt, then look back at the woman in front of them. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (The exchanged glance) sits at Rick at (0.38, 0.62), Tina at (0.62, 0.62). Two-shot, 50mm lens. Static. Lighting: L3 First light. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 4s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-28_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "RICK",
+      "file": "02_bibles/refs/rick_reference_sheet.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for RICK.",
+      "slot": 2
+    },
+    {
+      "slot_role": "character",
+      "id": "TINA",
+      "file": "02_bibles/refs/tina_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for TINA.",
+      "slot": 3
+    },
+    {
+      "slot_role": "location",
+      "id": "MOONGATE_FRONT",
+      "file": "02_bibles/refs/moongate_front_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "RICK_concerned",
+      "file": "expr/RICK_concerned.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 5
+    },
+    {
+      "slot_role": "expression_end",
+      "id": "RICK_guilty",
+      "file": "expr/RICK_guilty.png",
+      "status": "missing",
+      "use": "Closing expression.",
+      "slot": 6
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 4
+}

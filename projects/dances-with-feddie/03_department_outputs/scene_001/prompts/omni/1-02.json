@@ -1,0 +1,39 @@
+{
+  "shot": "1-02",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is PAUL (character).\nImage 3 is SOLEDAD_SUEY_SING (location).\nImage 4 is PAUL_scanning_restless (expression start).\n\nA young man walks fast and hunched-forward down the street along the curb, heading screen-right past a single-story stucco building lined with weathered tents and a large tarp-built shelter. His head swivels, scanning the sidewalk and across the street, listening. Without breaking stride he calls back over his shoulder. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Paul's head turning, scanning the block) sits at Paul's head held at (0.38, 0.66) for the full move; lead room open to screen-right. Wide-to-medium lateral tracking shot, 35mm lens. Smooth lateral gimbal track at Paul's fast walking pace, camera on the street side moving screen-right with him, slightly below his eye level. Lighting: L1 Blue hour: cobalt pre-sunrise ambient, sodium streetlamps still burning amber as isolated pools; Paul passes through one amber pool mid-track. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Paul says: \"I'm 'bout to grab a ball. Gimme sec, I got you.\"\n\nDuration 8s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-02_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "PAUL",
+      "file": "02_bibles/refs/paul_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for PAUL.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "SOLEDAD_SUEY_SING",
+      "file": "02_bibles/refs/soledad_suey_sing_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "PAUL_scanning_restless",
+      "file": "expr/PAUL_scanning_restless.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 8
+}

@@ -1,0 +1,9 @@
+{
+  "shot": "1-16",
+  "positive": "[KILLA] Same character as reference image: 40-year-old African American man, tall, slim build, long shoulder-length dreadlocks, missing front left tooth, clean-shaven, black eyes, sagging jawline, longish hands, smooth confident charming demeanor, several gold rings, gold nugget bracelet. Wearing a bomber jacket with a fake fur-lined hood, jeans, boots, and a dark brown beanie. Maintain exact facial structure and build from reference. Scene: Close on a man's long hand heavy with gold rings and a gold nugget bracelet as a few small round light-blue pills tip out of a baggie into his palm. Focus racks up to his face: a slow smile that shows his missing front tooth. Insert: extreme close-up on hand, rack to medium close-up on smile, 100mm macro. Static insert on the palm, rack focus up to Killa's smile. Placement: Palm at (0.70, 0.33); smile at (0.70, 0.66) after rack. L1 Blue hour; the gold rings and nugget bracelet pick up the only warm highlights in the frame.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no short hair, no heavyset/stocky build, no full smile without the missing front left tooth showing, no facial hair, no eye color other than black, no firm/tight jawline, no reserved/timid demeanor, no flashback wardrobe elements, no missing gold jewelry, never remove the utility pole in front of Dorothy's Place, no swapping architectural styles with the Suey Sing Building",
+  "first_frame": "expr/KILLA_smile_dealing.png",
+  "last_frame": "expr/KILLA_smile_dealing.png",
+  "frames": 81,
+  "fps": 16
+}

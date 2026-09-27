@@ -1,0 +1,39 @@
+{
+  "shot": "1-18",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is KILLA (character).\nImage 3 is VICTORY_MISSION (location).\nImage 4 is G_WAGON (prop).\n\nOver a seated man's right shoulder and dreadlocks, a gleaming luxury SUV on oversized white rims glides down the street past the tents and eases to the curb in front of a brick mission building where people are gathered. Heads turn toward it. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (The G-Wagon) sits at Killa's right shoulder and dreadlocks fill frame-right x=0.75–1.0; vehicle enters upper-right and travels the inner arc to rest at (0.30, 0.33) in front of the Victory Mission. Over-the-shoulder, Killa's right shoulder, 50mm lens. Static OTS; slow pan follows the vehicle to the curb. Lighting: L2 → L1: the vehicle's headlights and polished paint are the brightest thing in the frame against the blue street. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Killa says: \"This muthafucka done slid, bitch — a spaceship tho! Lookit' dis shit.\"\n\nDuration 7s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-18_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "KILLA",
+      "file": "02_bibles/refs/killa_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for KILLA.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "VICTORY_MISSION",
+      "file": "02_bibles/refs/victory_mission_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "prop",
+      "id": "G_WAGON",
+      "file": "02_bibles/refs/g_wagon.png",
+      "status": "missing",
+      "use": "a 2023 Mercedes-Benz G-Class wagon on oversized white Forgiato rims, spotless and gleaming",
+      "slot": 4
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 7
+}

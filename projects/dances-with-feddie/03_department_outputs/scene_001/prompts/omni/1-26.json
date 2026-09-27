@@ -1,0 +1,55 @@
+{
+  "shot": "1-26",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is RUBY (character).\nImage 3 is RICK (character).\nImage 4 is TINA (character).\nImage 5 is MOONGATE_FRONT (location).\nImage 6 is RUBY_nervous_worried (expression start).\n\nA couple walks hand in hand down the sidewalk toward the woman in the robe. As they get close, their easy expressions turn concerned and they slow to a stop in front of her. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Ruby) sits at Ruby frame-left at (0.30, 0.55); the couple enters frame-right at (0.90, 0.45) and walks the arc inward, stopping at (0.62, 0.50). Medium-wide three-shot, 35mm lens. Static. Lighting: L3 First light. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Rick says: \"What's got you out here lookin' so worried, so early in the morning, Ms. Ruby?\" Tina says: \"Yeah, you look like you seent a ghost, Ms. Ruby.\"\n\nDuration 8s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-26_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "RUBY",
+      "file": "02_bibles/refs/ruby_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day_robe wardrobe for RUBY.",
+      "slot": 2
+    },
+    {
+      "slot_role": "character",
+      "id": "RICK",
+      "file": "02_bibles/refs/rick_reference_sheet.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for RICK.",
+      "slot": 3
+    },
+    {
+      "slot_role": "character",
+      "id": "TINA",
+      "file": "02_bibles/refs/tina_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for TINA.",
+      "slot": 4
+    },
+    {
+      "slot_role": "location",
+      "id": "MOONGATE_FRONT",
+      "file": "02_bibles/refs/moongate_front_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 5
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "RUBY_nervous_worried",
+      "file": "expr/RUBY_nervous_worried.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 6
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 8
+}

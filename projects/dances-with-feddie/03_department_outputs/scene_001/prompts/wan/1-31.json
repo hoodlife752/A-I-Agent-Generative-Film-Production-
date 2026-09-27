@@ -1,0 +1,10 @@
+{
+  "shot": "1-31",
+  "positive": "[RUBY] Same character as reference image: 66-year-old Cherokee woman, smooth skin with only faint fine lines at the eyes, high cheekbones, sharp restless dark eyes, thick dark hair with silver strands in a loose braid, wearing a pink robe, barefoot, turquoise ring, turquoise pendant necklace. No facial tattoos, no gray-all-over hair, no gaunt features, no wrinkling. Maintain exact facial structure from reference. [RICK] Same character as reference image: white man with messy tousled brown hair and a full scruffy beard, lean build, weathered face, wearing a worn blue knit sweater, faded light-wash jeans and black slide sandals. Maintain exact facial structure and build from reference. [TINA] 30-year-old white woman, worn street clothes. Scene: Her face sours. She raises her coffee mug threateningly and snaps at the couple, who scramble away down the sidewalk at once. She keeps yelling after their retreating backs. Medium-wide, 35mm. Static; the couple exits frame-right. Placement: Ruby at (0.30, 0.55), mug raised to (0.35, 0.75); couple retreats from (0.62, 0.50) out of frame-right. L3 First light.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no facial tattoos, no sunken/gaunt cheekbones, no fully gray or white hair, no heavy wrinkling, forehead lines, or aged skin texture, no hunched or frail posture, no jewelry beyond turquoise ring and pendant, no default smiling, Moongate is the tallest structure on the block",
+  "first_frame": "expr/RUBY_sour_face.png",
+  "last_frame": "expr/RUBY_sour_face.png",
+  "frames": 81,
+  "fps": 16,
+  "chaining": "8s > 5s: generate 2 segments, each segment's last frame seeds the next."
+}

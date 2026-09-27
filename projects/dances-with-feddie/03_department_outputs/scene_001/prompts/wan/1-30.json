@@ -1,0 +1,9 @@
+{
+  "shot": "1-30",
+  "positive": "[RUBY] Same character as reference image: 66-year-old Cherokee woman, smooth skin with only faint fine lines at the eyes, high cheekbones, sharp restless dark eyes, thick dark hair with silver strands in a loose braid, wearing a pink robe, barefoot, turquoise ring, turquoise pendant necklace. No facial tattoos, no gray-all-over hair, no gaunt features, no wrinkling. Maintain exact facial structure from reference. [RICK] Same character as reference image: white man with messy tousled brown hair and a full scruffy beard, lean build, weathered face, wearing a worn blue knit sweater, faded light-wash jeans and black slide sandals. Maintain exact facial structure and build from reference. [TINA] 30-year-old white woman, worn street clothes. Scene: Over the older woman's shoulder: the couple exchange another look, and the man gives a tiny, barely perceptible shake of his head. Over-the-shoulder from behind Ruby, 85mm. Static OTS over Ruby's shoulder, shallow depth of field. Placement: Ruby's shoulder and braid soft at frame-left x=0–0.25; Rick's face at (0.70, 0.66), Tina at (0.50, 0.62). L3 First light.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no facial tattoos, no sunken/gaunt cheekbones, no fully gray or white hair, no heavy wrinkling, forehead lines, or aged skin texture, no hunched or frail posture, no jewelry beyond turquoise ring and pendant, no default smiling, Moongate is the tallest structure on the block",
+  "first_frame": "expr/RICK_guilty.png",
+  "last_frame": "expr/RICK_guilty.png",
+  "frames": 81,
+  "fps": 16
+}

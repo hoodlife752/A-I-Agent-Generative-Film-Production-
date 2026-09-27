@@ -1,0 +1,47 @@
+{
+  "shot": "1-17",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is KILLA (character).\nImage 3 is DOROTHYS_PLACE (location).\nImage 4 is KILLA_smile_dealing (expression start).\nImage 5 is KILLA_wide_eyed_impressed (expression end).\n\nHard white headlights sweep across the seated man's face. He turns toward them, his eyes going wide, and lets out a long, appreciative whistle. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Killa's eyes widening) sits at Face at (0.70, 0.66); headlight sweep travels left-to-right across frame. Close-up, 85mm lens. Static. Lighting: L2 Intrusion: hard white headlights rake across his face left-to-right — the only hard light in the scene. Deliberate departure from soft-light standard (see Lighting CRR). Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 4s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-17_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "KILLA",
+      "file": "02_bibles/refs/killa_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for KILLA.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "DOROTHYS_PLACE",
+      "file": "02_bibles/refs/dorothys_place_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "KILLA_smile_dealing",
+      "file": "expr/KILLA_smile_dealing.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    },
+    {
+      "slot_role": "expression_end",
+      "id": "KILLA_wide_eyed_impressed",
+      "file": "expr/KILLA_wide_eyed_impressed.png",
+      "status": "missing",
+      "use": "Closing expression.",
+      "slot": 5
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 4
+}

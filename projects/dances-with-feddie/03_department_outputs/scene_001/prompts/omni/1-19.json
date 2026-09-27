@@ -1,0 +1,31 @@
+{
+  "shot": "1-19",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is VICTORY_MISSION (location).\nImage 3 is G_WAGON (prop).\n\nClose on the front quarter of a spotless luxury SUV as it slows to the curb, the tents and street reflected sliding across its glossy paint. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Front grille and headlight) sits at Grille at (0.70, 0.60). Close-up on vehicle, 50mm lens. Low tracking alongside the vehicle's front quarter as it slows. Lighting: L1 Blue hour reflected in the paint. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build.\n\nDuration 3s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-19_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "location",
+      "id": "VICTORY_MISSION",
+      "file": "02_bibles/refs/victory_mission_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 2
+    },
+    {
+      "slot_role": "prop",
+      "id": "G_WAGON",
+      "file": "02_bibles/refs/g_wagon.png",
+      "status": "missing",
+      "use": "a 2023 Mercedes-Benz G-Class wagon on oversized white Forgiato rims, spotless and gleaming",
+      "slot": 3
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 3
+}

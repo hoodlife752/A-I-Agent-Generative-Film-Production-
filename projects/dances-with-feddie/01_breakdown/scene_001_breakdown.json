@@ -1,0 +1,243 @@
+{
+  "scene": "001",
+  "slug": "EXT. CHINATOWN (SOLEDAD STREET), SALINAS, CA — DAWN",
+  "prepared_by": "Script Supervisor Agent",
+  "source": "Dances With Fetty.fountain (Drive Google Doc, modified 2026-09-18) — newest draft; supersedes 'First 45 Minutes Dances with Feddie' (2026-08-17) for this scene",
+  "timeline": "present_day",
+  "time_of_day": "dawn (pre-sunrise into first light)",
+  "summary": "Paul, sick and looking to score, walks Soledad Street at dawn; the block is dry. Killa, holding court in Dorothy's middle cubbyhole, offers him 'blues' instead, until a G-Wagon on white Forgiatos slides onto the block. Out front of the Moongate, Ruby, awake since dreaming her granddaughter Dances overdosed, reads guilt on Rick and Tina, runs them off, and then trades barbs with her born-again daughter Season.",
+  "emotional_beats": [
+    {
+      "shots": "1-02 → 1-13",
+      "beat": "Need → hope → collapse (Paul)"
+    },
+    {
+      "shots": "1-14 → 1-16",
+      "beat": "Predation dressed as help (Killa)"
+    },
+    {
+      "shots": "1-17 → 1-20",
+      "beat": "Wealth intrudes on want"
+    },
+    {
+      "shots": "1-24 → 1-31",
+      "beat": "A grandmother's fear, hardening into suspicion and anger (Ruby)"
+    },
+    {
+      "shots": "1-32 → 1-43",
+      "beat": "Family acid: Ruby's armor against Season's faith"
+    }
+  ],
+  "characters": [
+    "PAUL",
+    "KILLA",
+    "SARAH",
+    "POOCHIE",
+    "MOODY",
+    "GINA",
+    "BELLE",
+    "IZZY",
+    "RUBY",
+    "RICK",
+    "TINA",
+    "SEASON",
+    "V.O. #1 MALE",
+    "V.O. #2 FEMALE",
+    "background: residents, users, dealers, people at the Victory Mission"
+  ],
+  "locations": [
+    "SOLEDAD_SUEY_SING",
+    "DOROTHYS_PLACE",
+    "MOONGATE_FRONT",
+    "VICTORY_MISSION"
+  ],
+  "props": [
+    "FOIL_CRUMPLED",
+    "MILK_CRATE",
+    "SHOPPING_CARTS",
+    "BLUE_PILLS",
+    "G_WAGON",
+    "SEASONS_CAR",
+    "RUBY_CIGARETTE",
+    "RUBY_COFFEE_MUG",
+    "BEERS"
+  ],
+  "open_flags": [
+    {
+      "id": "F-01",
+      "owner": "Script Supervisor",
+      "severity": "decision",
+      "issue": "Two script versions exist. The Sep 18 fountain renames Male Addict #1→PAUL, Santa Cruz→MOODY, Diamond→BELLE, Male/Female Addict #2/#1→RICK/TINA, and adds Killa's pill sale.",
+      "applied": "Sep 18 fountain used as canonical.",
+      "needs": "Confirm."
+    },
+    {
+      "id": "F-02",
+      "owner": "Location / Set Designer",
+      "severity": "decision",
+      "issue": "Script: 'buildings tinted with shades of foil… street paved in a dull stealth-black, cracked foil.' Stylized, not social-realist. Under the CRR rules a departure like this has to be confirmed as intentional.",
+      "applied": "Rendered realistically: foil appears as litter (Props Bible). No stylized foil paving.",
+      "needs": "Is the foil-paved world literal (stylized look) or a writer's metaphor?"
+    },
+    {
+      "id": "F-03",
+      "owner": "Casting",
+      "severity": "conflict",
+      "issue": "PAUL is 23 / 'younger twenties' in the script; the Male Addict #1 bible says 'late 20s to early 30s'. The script also switches between the labels PAUL and MALE ADDICT #1.",
+      "applied": "Bible wording kept verbatim (locked).",
+      "needs": "Update the bible age or accept it."
+    },
+    {
+      "id": "F-04",
+      "owner": "Visual Asset Generation",
+      "severity": "hard_block",
+      "issue": "MOODY is based on a real person (Santa Cruz) and requires documented consent. consent_log.json is not visible to this run. A reference sheet was supplied on 2026-09-27; that is not proof of consent.",
+      "applied": "Every shot with MOODY (1-03) is blocked for generation.",
+      "needs": "Confirm the consent_log.json entry."
+    },
+    {
+      "id": "F-05",
+      "owner": "Wardrobe",
+      "severity": "conflict",
+      "issue": "Ruby is 'in her robe', but the bible wardrobe is flannel / denim skirt / boots. Her age is 60 in the script vs 66 in the bible.",
+      "applied": "Scene variant uses Source 2 Panel 1: pink robe, barefoot. Age kept at 66 (bible).",
+      "needs": "Approve the robe variant; resolve the age."
+    },
+    {
+      "id": "F-06",
+      "owner": "Props / Script Supervisor",
+      "severity": "conflict",
+      "issue": "The coffee mug appears only in Ruby's threat line, and she is also smoking. Her curse line to Rick and Tina is garbled ('I'ma blow up the goddamn where son of a bitches at soons I find I out where the fuck its a-').",
+      "applied": "Mug established in 1-24 (mug in one hand, cigarette in the other). Placeholder reading used for the garbled line.",
+      "needs": "The clean line."
+    },
+    {
+      "id": "F-07",
+      "owner": "Casting",
+      "severity": "conflict",
+      "issue": "The Season bible says 'half Cherokee and half Black'; the Sep 18 script says 'full-blooded Cherokee like her mom'. The bible's present-day wardrobe is a waitress uniform, which is not mentioned in the script.",
+      "applied": "Bible wording kept verbatim.",
+      "needs": "Which heritage is correct? Is the uniform right for this scene?"
+    },
+    {
+      "id": "F-08",
+      "owner": "Casting",
+      "severity": "minor",
+      "issue": "Sarah is 25 in the bible, 30WF in the script header, and 'late-twenties' in the description. 'Red hair' vs 'strawberry blonde'.",
+      "applied": "Bible kept.",
+      "needs": "Confirm the age."
+    },
+    {
+      "id": "F-09",
+      "owner": "Casting",
+      "severity": "block_until_bible",
+      "issue": "No Character Bibles exist for POOCHIE, GINA, BELLE, IZZY, RICK, TINA. Gina is 25HF in the header vs 35 in the description. Poochie, Gina, Belle and Tina have no wardrobe. Izzy and Rick now have producer reference sheets (2026-09-27). The Location Bible note also mentions Elsa and Gina's daughter Samantha, who are not in the Sep 18 script.",
+      "applied": "Provisional script-only descriptions. Izzy and Rick descriptions come from their sheets. Elsa and Samantha are not included.",
+      "needs": "Approve or complete the bibles; reference sheets for Poochie, Gina, Belle and Tina."
+    },
+    {
+      "id": "F-10",
+      "owner": "Location",
+      "severity": "conflict",
+      "issue": "The Suey Sing geography contradicts itself inside the Location Bible: 'no fence anywhere' vs 'wooden fence + chainlink along its right side'; the field is 'behind' vs 'right of' Suey Sing; tent counts are 7 / 15 / 20.",
+      "applied": "The producer's CORRECTED LAYOUT: Moongate on the left, field on the right between Suey Sing and the Victory Mission, no fence in front, 20 tents (Sep 18 script).",
+      "needs": "Lock one layout. Is there a fence on the right side?"
+    },
+    {
+      "id": "F-11",
+      "owner": "Location",
+      "severity": "conflict",
+      "issue": "Dorothy's Place colors: yellow stucco / dark-red trim / green windows (LOCATION 2) vs cream / dark wood / blue windows (corrected prompt). The producer promised the correct photo. The script also names a boarded 'La Puerta Negra' bar that has no bible.",
+      "applied": "LOCATION 2 description used.",
+      "needs": "Dorothy's photo; is La Puerta Negra in frame?"
+    },
+    {
+      "id": "F-12",
+      "owner": "Location",
+      "severity": "block_until_bible",
+      "issue": "No Location Bible for the Moongate Apartments entrance or the Victory Mission.",
+      "applied": "Minimal provisional descriptions.",
+      "needs": "Reference photos / bible entries."
+    },
+    {
+      "id": "F-13",
+      "owner": "Props",
+      "severity": "minor",
+      "issue": "The G-Wagon color is unspecified. Season's car make and color are unspecified.",
+      "applied": "G-Wagon color left open; Season's car is 'an ordinary, well-kept sedan'.",
+      "needs": "Specs."
+    },
+    {
+      "id": "F-14",
+      "owner": "Cinematography",
+      "severity": "decision",
+      "issue": "The Dynamic Symmetry grid is 2.39:1 but earlier prompts said 16:9.",
+      "applied": "Generate at 16:9 and compose inside a centered 2.39:1 safe area (the grid coordinates are for that area). Crop to 2.39:1 in edit.",
+      "needs": "Confirm the delivery aspect."
+    },
+    {
+      "id": "F-15",
+      "owner": "Tone & Lighting",
+      "severity": "decision",
+      "issue": "No Tone & Lighting Bible exists.",
+      "applied": "Lighting drafted three scene-1 lighting states (L1 Blue hour, L2 Intrusion, L3 First light) from the Cinematography Bible. See the Lighting CRR.",
+      "needs": "Approve these as the start of the Tone & Lighting Bible."
+    },
+    {
+      "id": "F-16",
+      "owner": "Prompt Engineer",
+      "severity": "risk",
+      "issue": "Profanity and drug references in dialogue may trip hosted LTX filters. LTX-2.3 generates dialogue audio from the prompt.",
+      "applied": "LTX prompts include the dialogue; Wan prompts are picture-only. Fallback: generate picture without dialogue and add voice in post.",
+      "needs": "Choose native audio vs voice-in-post."
+    },
+    {
+      "id": "F-17",
+      "owner": "Script Supervisor",
+      "severity": "minor",
+      "issue": "The OTS note in the script is garbled ('Here the OTS has to be over KILL happenings… La Puerta Negra barA\"S right shoulder…').",
+      "applied": "Read as an OTS over Killa's right shoulder looking at the southern half of the block (1-18).",
+      "needs": "Confirm."
+    },
+    {
+      "id": "F-18",
+      "owner": "Visual Asset Generation",
+      "severity": "hard_block",
+      "issue": "No chosen reference image exists yet for PAUL, KILLA, RUBY, SEASON, SARAH, POOCHIE, GINA, BELLE, TINA or any location. Sheets were received for MOODY, IZZY and RICK, but the files are not in the repo.",
+      "applied": "5-candidate batch prompts drafted (visual_asset_batches.md).",
+      "needs": "A producer pick per asset; commit the supplied sheet files to 02_bibles/refs/."
+    },
+    {
+      "id": "F-19",
+      "owner": "Casting",
+      "severity": "conflict",
+      "issue": "The Izzy sheet shows a petite tomboy in a green flannel with no cap. The script says 'wide-shouldered' and a 'boy cut under a 49ers baseball cap'.",
+      "applied": "Sheet used (a producer-supplied image outranks script-only text). No cap.",
+      "needs": "Is the 49ers cap in or out? Wide-shouldered or petite?"
+    },
+    {
+      "id": "F-20",
+      "owner": "Casting / Props",
+      "severity": "conflict",
+      "issue": "The Rick sheet reads as late 30s–40s with a bicycle prop. The script says 30WM and has Rick and Tina walking hand in hand.",
+      "applied": "Sheet look used. The bike is left out of 1-26 so the hand-in-hand walk works.",
+      "needs": "Should Rick walk his bike (other hand on the handlebars)? Is the age OK?"
+    },
+    {
+      "id": "F-21",
+      "owner": "Location",
+      "severity": "question",
+      "issue": "A street photo was received on 2026-09-27 without a label: pink building on the left, parking lot and corrugated-metal warehouse on the right, green-roofed building at the far end.",
+      "applied": "Logged, not assigned.",
+      "needs": "Which location is this (Victory Mission end of Soledad? East Rossi?)."
+    },
+    {
+      "id": "F-22",
+      "owner": "Location / Set Designer",
+      "severity": "question",
+      "issue": "The blocking-map site plan assumes Soledad St runs N–S with Moongate, Suey Sing, the field and the Victory Mission on the EAST side, north to south, and Dorothy's across on the WEST. That is inferred from 'Paul heads south past Suey Sing' and the Victory Mission sitting in the 'southern half' of the block.",
+      "applied": "02_bibles/soledad_site_plan.json; all 42 maps drawn on it.",
+      "needs": "Check against the real block. If a side or a direction is wrong, fix the site plan and re-run. Every map regenerates."
+    }
+  ]
+}

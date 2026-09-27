@@ -1,0 +1,10 @@
+{
+  "shot": "1-18",
+  "positive": "[KILLA] Same character as reference image: 40-year-old African American man, tall, slim build, long shoulder-length dreadlocks, missing front left tooth, clean-shaven, black eyes, sagging jawline, longish hands, smooth confident charming demeanor, several gold rings, gold nugget bracelet. Wearing a bomber jacket with a fake fur-lined hood, jeans, boots, and a dark brown beanie. Maintain exact facial structure and build from reference. Scene: Over a seated man's right shoulder and dreadlocks, a gleaming luxury SUV on oversized white rims glides down the street past the tents and eases to the curb in front of a brick mission building where people are gathered. Heads turn toward it. Over-the-shoulder, Killa's right shoulder, 50mm. Static OTS; slow pan follows the vehicle to the curb. Placement: Killa's right shoulder and dreadlocks fill frame-right x=0.75–1.0; vehicle enters upper-right and travels the inner arc to rest at (0.30, 0.33) in front of the Victory Mission. L2 → L1: the vehicle's headlights and polished paint are the brightest thing in the frame against the blue street.",
+  "negative": "no dead-center framing unless flagged as intentional, no clean or brand-new camping gear; tents show wear and dust, no high-contrast plastic or neon garbage bins, no harsh flat midday daylight, no garbled on-screen text, no short hair, no heavyset/stocky build, no full smile without the missing front left tooth showing, no facial hair, no eye color other than black, no firm/tight jawline, no reserved/timid demeanor, no flashback wardrobe elements, no missing gold jewelry",
+  "first_frame": null,
+  "last_frame": null,
+  "frames": 81,
+  "fps": 16,
+  "chaining": "7s > 5s: generate 2 segments, each segment's last frame seeds the next."
+}

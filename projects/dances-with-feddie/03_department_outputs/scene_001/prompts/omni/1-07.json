@@ -1,0 +1,39 @@
+{
+  "shot": "1-07",
+  "prompt": "Image 1: Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.\nImage 2 is PAUL (character).\nImage 3 is SOLEDAD_SUEY_SING (location).\nImage 4 is PAUL_pleading_outward (expression start).\n\nThe young man stops at the curb, turns outward toward the whole street and calls out, arms half-raised. The camera then whips fast to the left across the street in a streak of motion blur. Stage the action exactly as the blocking map in Image 1 shows: where each person stands, the numbered movement arrows, and the camera position and viewing direction. In frame, the focal point (Paul's face calling out) sits at Paul's face at (0.30, 0.66), body angled toward screen-left (toward Dorothy's). Medium shot, 50mm lens. Static for 3s, then a fast whip pan screen-left across the street (motion blur) for the final second. Lighting: L1 Blue hour, amber streetlamp as a rim on his hair. Cinematic tearjerker tone, emotionally intimate framing, soft natural light favoring dawn or dusk. Foil visible somewhere in frame — crumpled, glinting, or scattered nearby. Environment shows worn signs of habitation — blankets, bags, makeshift bedding — treated with visual dignity, not disorder. Camera lingers rather than cuts quickly, allowing emotional weight to build. Paul says: \"I'm tryna spend a hundo, where it at?\"\n\nDuration 4s. Cinematic 2.39:1 composition, photoreal, no on-screen text, no map graphics in the output.",
+  "references": [
+    {
+      "slot_role": "blocking_map",
+      "file": "03_department_outputs/scene_001/blocking_maps/1-07_blocking_map.png",
+      "status": "ready",
+      "use": "Top-down scene-blocking map. Follow its positions and movement arrows; do not render the map itself.",
+      "slot": 1
+    },
+    {
+      "slot_role": "character",
+      "id": "PAUL",
+      "file": "02_bibles/refs/paul_reference.png",
+      "status": "missing",
+      "use": "Identity + present_day wardrobe for PAUL.",
+      "slot": 2
+    },
+    {
+      "slot_role": "location",
+      "id": "SOLEDAD_SUEY_SING",
+      "file": "02_bibles/refs/soledad_suey_sing_plate.png",
+      "status": "missing",
+      "use": "Architecture and set dressing.",
+      "slot": 3
+    },
+    {
+      "slot_role": "expression_start",
+      "id": "PAUL_pleading_outward",
+      "file": "expr/PAUL_pleading_outward.png",
+      "status": "missing",
+      "use": "Opening expression.",
+      "slot": 4
+    }
+  ],
+  "dropped_over_limit": [],
+  "duration_s": 4
+}
