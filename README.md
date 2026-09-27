@@ -32,3 +32,9 @@ reference image in `02_bibles/refs/` and any real-person likeness has documented
 ## Dances With Feddie: Scene 2 (MiniMax test)
 
 - `projects/dances-with-feddie/03_department_outputs/scene_002/MINIMAX_TEST_RUN.md`: step-by-step MiniMax web run with paste-ready prompts
+
+## GPU pod (build with Wan 2.2, edit with LTX-2.5)
+
+- `tools/pod/setup_pod.sh`: one-time ComfyUI + Wan 2.2 + LTX-2.5 + LTX 2.5 Director setup on a 48 GB RunPod pod (everything on `/workspace`)
+- `tools/pod/start_comfyui.sh`: start ComfyUI on port 8188 after each restart
+- `projects/dances-with-feddie/03_department_outputs/scene_002/WAN_BUILD_LTX_EDIT_RUN.md`: step-by-step for scene 2
