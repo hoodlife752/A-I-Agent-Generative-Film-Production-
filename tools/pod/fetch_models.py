@@ -2,8 +2,13 @@
 """Download the model files ComfyUI needs, choosing them from each repo's own file list.
 
 Presets:
-  wan22  Wan 2.2 14B image/text-to-video (build pass)   Comfy-Org/Wan_2.2_ComfyUI_Repackaged
+  h3     MiniMax H3: Ref2VA (reference) + FL2VA (first/last frame), Qwen3-VL encoder, VAEs
+                                                         MiniMaxAI/MiniMax-H3
+  wan22  Wan 2.2 14B image/text-to-video + first/last frame  Comfy-Org/Wan_2.2_ComfyUI_Repackaged
   ltx25  LTX-2.5 (edit pass: audio, extend, upscale)     Lightricks/LTX-2.5
+
+MiniMax H3 is under the MiniMax H3 Community License: local use is not permitted in
+the US, EU, UK or South Korea. Only run the h3 preset on a pod located outside them.
 
 Exact filenames aren't hard-coded (they couldn't be verified when this was written).
 The script lists what the repo actually publishes, picks one file per role by
@@ -18,7 +23,7 @@ from pathlib import Path
 
 from huggingface_hub import HfApi, hf_hub_download
 
-REPOS = {"wan22": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged", "ltx25": "Lightricks/LTX-2.5"}
+REPOS = {"h3": "MiniMaxAI/MiniMax-H3", "wan22": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged", "ltx25": "Lightricks/LTX-2.5"}
 WEIGHTS = re.compile(r"\.(safetensors|gguf)$", re.I)
 
 
@@ -58,7 +63,20 @@ def ltx_plan(files, precision):
     }
 
 
-REQUIRED = {"wan22": ("i2v high-noise", "i2v low-noise", "text encoder", "video VAE"),
+def h3_plan(files, precision, encoder):
+    """Diffusion: int8 (pre-Ada or 24 GB default), fp8 (Ada/Blackwell), bf16. Encoder: int4 or nvfp4 (Blackwell)."""
+    q = {"int8": r"int8", "fp8": r"fp8", "bf16": r"bf16"}[precision]
+    skip = [r"vae", r"qwen", r"text_enc", r"lora"]
+    return {
+        "ref2va model": pick(files, [r"ref2va", q], exclude=skip, prefer=[r"pruned"]),
+        "fl2va model": pick(files, [r"f[il]2va", q], exclude=skip, prefer=[r"pruned"]),
+        "text encoder": pick(files, [r"qwen"], prefer=[encoder]),
+        "video VAE": pick(files, [r"vae"], exclude=[r"audio"], prefer=[r"video"]),
+        "audio VAE": pick(files, [r"audio"], prefer=[r"vae"]),
+    }
+
+
+REQUIRED = {"h3": ("ref2va model", "fl2va model", "text encoder", "video VAE", "audio VAE"),"wan22": ("i2v high-noise", "i2v low-noise", "text encoder", "video VAE"),
             "ltx25": ("diffusion model", "video VAE", "text encoder")}
 
 
@@ -66,7 +84,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--preset", choices=sorted(REPOS), required=True)
     ap.add_argument("--dest", required=True)
-    ap.add_argument("--precision", choices=["fp8", "bf16"], default="fp8")
+    ap.add_argument("--precision", choices=["fp8", "bf16", "int8"], default="fp8")
+    ap.add_argument("--encoder", choices=["int4", "nvfp4"], default="int4", help="h3 text encoder build (nvfp4 = Blackwell only)")
     ap.add_argument("--repo", help="override the preset's repo")
     ap.add_argument("--extra", action="append", default=[], help="additional filename(s) from the repo to fetch")
     ap.add_argument("--dry-run", action="store_true")
@@ -74,7 +93,12 @@ def main():
 
     repo = a.repo or REPOS[a.preset]
     files = HfApi().list_repo_files(repo)
-    plan = (wan_plan if a.preset == "wan22" else ltx_plan)(files, a.precision)
+    if a.preset == "h3":
+        plan = h3_plan(files, a.precision, a.encoder)
+    elif a.preset == "wan22":
+        plan = wan_plan(files, "fp8" if a.precision == "int8" else a.precision)
+    else:
+        plan = ltx_plan(files, "fp8" if a.precision == "int8" else a.precision)
     for f in a.extra:
         plan[f"extra: {Path(f).name}"] = f
 
